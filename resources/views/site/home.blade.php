@@ -38,7 +38,7 @@
 </style>
 @stop
 @section('content')
-<section class="main-slider clearfix">
+{{-- <section class="main-slider clearfix">
     <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": false,
         "effect": "fade",
         "pagination": {
@@ -94,7 +94,147 @@
         </div>
 
     </div>
-</section>
+</section> --}}
+<link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
+<style>
+    .swiper-container {
+        height: 70vh; /* 50% of the viewport height */
+    }
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+    .swiper-slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 25%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    .slide-content {
+        position: relative;
+        z-index: 10;
+        color: white;
+        padding: 20px;
+        /* Removed the background color */
+        border-radius: 10px;
+    }
+    .slide-content h2 {
+        font-size: 2.5rem;
+        margin: 0;
+        opacity: 0;
+        transform: translateY(-30px);
+        animation: fadeInUp 1s 0.5s forwards;
+    }
+    .slide-content p {
+        font-size: 1.2rem;
+        margin: 1rem 0;
+        opacity: 0;
+        transform: translateY(-20px);
+        animation: fadeInUp 1s 1s forwards;
+    }
+    .slide-content .btn {
+        background: #1c4f9c;
+        border: none;
+        color: white;
+        padding: 0.75rem 1.5rem;
+        font-size: 1.1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        opacity: 0;
+        transform: translateY(10px);
+        transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+        animation: fadeInUp 1s 1.5s forwards;
+    }
+    .slide-content .btn:hover {
+        background: #1c4f9c;
+        transform: translateY(0) scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+    .slide-content .btn:active {
+        transform: translateY(2px) scale(0.98);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .swiper-pagination {
+        bottom: 10px;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        color: #fff;
+    }
+</style>
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img src="{{ asset('site/assets/images/slider/slider1.jpg') }}" alt="Slide 1">
+            {{-- <div class="slide-content">
+                <h2>Slide 1 Title</h2>
+                <p>This is a description for slide 1.</p>
+                <button class="btn">Learn More</button>
+            </div> --}}
+        </div>
+        <div class="swiper-slide">
+            <img src="{{ asset('site/assets/images/slider/slider1.jpg') }}" alt="Slide 2">
+            {{-- <div class="slide-content">
+                <h2>Slide 2 Title</h2>
+                <p>This is a description for slide 2.</p>
+                <button class="btn">Learn More</button>
+            </div> --}}
+        </div>
+        <div class="swiper-slide">
+            <img src="{{ asset('site/assets/images/slider/slider1.jpg') }}" alt="Slide 3">
+            {{-- <div class="slide-content">
+                <h2>Slide 3 Title</h2>
+                <p>This is a description for slide 3.</p>
+                <button class="btn">Learn More</button>
+            </div> --}}
+        </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Navigation -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        loop: true,
+        autoplay: {
+            delay: 3000, // Auto-slide interval (3 seconds)
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
+
+
+
 @if($notices->count())
 <section class="noticbox" style="margin-bottom: 10px;">
     <div class="container">
@@ -134,7 +274,7 @@
                     <div class="about-one__img-box wow slideInLeft" data-wow-delay="100ms"
                         data-wow-duration="2500ms">
                         <div class="about-one__img">
-                            <img src="{{ asset('site/assets/images/governer-24-25.png') }}" alt="">
+                            <img src="{{ asset('site/assets/images/Chandi.jpg') }}" alt="">
                         </div>
                         <div class="about-one__img-border"></div>
                         <div class="about-one__curved-circle-box">
@@ -210,7 +350,7 @@
                         <h3 class="causes-one__title"><a href="{{ route('getProgramDetail', $program->slug) }}">{{ $program->title }}</a>
                         </h3>
                         <div class="col-md-12" style="text-align:center; margin-top: 10px;">
-                            <a href="{{ route('getProgramDetail', $program->slug) }}" class="thm-btn">Read Detail</a>
+                            <a href="{{ route('getProgramDetail', $program->slug) }}" class="thm-btn" style="color: white;">Read Detail</a>
                         </div>
                     </div>
                    
