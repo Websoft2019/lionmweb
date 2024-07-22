@@ -9,6 +9,8 @@ use App\Http\Controllers\Adminauth\PasswordResetLinkController;
 use App\Http\Controllers\Adminauth\RegisteredUserController;
 use App\Http\Controllers\Adminauth\VerifyEmailController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DownloadController;
+use App\Http\Controllers\DistrictCalenderController;
 
 Route::group(['middleware' => ['guest:admin'], 'prefix' => 'admin', 'as' => 'admin.'], function(){
 
@@ -157,4 +159,24 @@ Route::group(['middleware' => ['auth:admin'], 'prefix' => 'admin', 'as' => 'admi
 
     Route::post('logout', [AuthenticatedSessionController::class, 'destroy'])
                 ->name('logout');
+
+                
+
+    // Download
+    Route::prefix('download')->name('download.')->group(function(){
+        Route::get("donwload", [DownloadController::class, 'index'])->name('index');
+        Route::get("donwload/create", [DownloadController::class, 'create'])->name('create');
+        Route::post("donwload/store", [DownloadController::class, 'store'])->name('store');
+        Route::get("donwload/delete/{id}", [DownloadController::class, 'destroy'])->name('delete');
+    });
+
+    // District Calender
+    Route::prefix('district-calender')->name('district_calender.')->group(function(){
+        Route::get("index/{date?}", [DistrictCalenderController::class, 'index'])->name('index');
+        Route::get("create", [DistrictCalenderController::class, 'create'])->name('create');
+        Route::post("store", [DistrictCalenderController::class, 'store'])->name('store');
+        Route::get("edit/{id}", [DistrictCalenderController::class, 'edit'])->name('edit');
+        Route::put("update/{id}", [DistrictCalenderController::class, 'update'])->name('update');
+        Route::get("delete/{id}", [DistrictCalenderController::class, 'destroy'])->name('delete');
+    });
 });

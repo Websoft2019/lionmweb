@@ -330,6 +330,359 @@
         </div>
     </div>
 </section>
+
+
+<section class="causes-one">
+    <div class="container">
+        <div class="section-title text-center">
+            <span class="section-title__tagline">Calendar</span>
+            <h2 class="section-title__title">Districts <br> Calendar</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active " id="july-tab" data-bs-toggle="tab" data-bs-target="#july"
+                            type="button" role="tab" aria-controls="july" aria-selected="true">July</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="august-tab" data-bs-toggle="tab" data-bs-target="#august"
+                            type="button" role="tab" aria-controls="august"
+                            aria-selected="false">August</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="september-tab" data-bs-toggle="tab" data-bs-target="#september"
+                            type="button" role="tab" aria-controls="september"
+                            aria-selected="false">September</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="october-tab" data-bs-toggle="tab" data-bs-target="#october"
+                            type="button" role="tab" aria-controls="october"
+                            aria-selected="false">October</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="november-tab" data-bs-toggle="tab" data-bs-target="#november"
+                            type="button" role="tab" aria-controls="november"
+                            aria-selected="false">November</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="december-tab" data-bs-toggle="tab" data-bs-target="#december"
+                            type="button" role="tab" aria-controls="december"
+                            aria-selected="false">December</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="january-tab" data-bs-toggle="tab" data-bs-target="#january"
+                            type="button" role="tab" aria-controls="january"
+                            aria-selected="false">January</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="february-tab" data-bs-toggle="tab" data-bs-target="#february"
+                            type="button" role="tab" aria-controls="february"
+                            aria-selected="false">February</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="march-tab" data-bs-toggle="tab" data-bs-target="#march"
+                            type="button" role="tab" aria-controls="march"
+                            aria-selected="false">March</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="april-tab" data-bs-toggle="tab" data-bs-target="#april"
+                            type="button" role="tab" aria-controls="april"
+                            aria-selected="false">April</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="may-tab" data-bs-toggle="tab" data-bs-target="#may"
+                            type="button" role="tab" aria-controls="may" aria-selected="false">May</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="june-tab" data-bs-toggle="tab" data-bs-target="#june"
+                            type="button" role="tab" aria-controls="june" aria-selected="false">June</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="july" role="tabpanel"
+                        aria-labelledby="july-tab">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Event Date</th>
+                                    <th>Event Title</th>
+                                    <th>Event Location</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach ($dates['july'] as $date)
+                                    <tr>
+                                        <td>{{ Carbon\Carbon::parse($date->event_date)->format('M-d-Y') }} </td>
+                                        <td>{{ $date->event_title }}</td>
+                                        <td> {{ $date->event_location }} </td>
+                                        {{-- <td><a href="" class="btn btn-primary">Detail</a></td> --}}
+                                    </tr>
+                                @endforeach
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="august" role="tabpanel" aria-labelledby="profile-tab">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Event Date</th>
+                                    <th>Event Title</th>
+                                    <th>Event Location</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach ($dates['august'] as $date)
+                                    <tr>
+                                        <td>{{ Carbon\Carbon::parse($date->event_date)->format('M-d-Y') }} </td>
+                                        <td>{{ $date->event_title }}</td>
+                                        <td> {{ $date->event_location }} </td>
+                                        {{-- <td><a href="" class="btn btn-primary">Detail</a></td> --}}
+                                    </tr>
+                                @endforeach
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="tab-pane fade" id="september" role="tabpanel" aria-labelledby="profile-tab">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Event Date</th>
+                                    <th>Event Title</th>
+                                    <th>Event Location</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach ($dates['september'] as $date)
+                                    <tr>
+                                        <td>{{ Carbon\Carbon::parse($date->event_date)->format('M-d-Y') }} </td>
+                                        <td>{{ $date->event_title }}</td>
+                                        <td> {{ $date->event_location }} </td>
+                                        {{-- <td><a href="" class="btn btn-primary">Detail</a></td> --}}
+                                    </tr>
+                                @endforeach
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="tab-pane fade" id="october" role="tabpanel" aria-labelledby="profile-tab">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Event Date</th>
+                                    <th>Event Title</th>
+                                    <th>Event Location</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach ($dates['october'] as $date)
+                                    <tr>
+                                        <td>{{ Carbon\Carbon::parse($date->event_date)->format('M-d-Y') }} </td>
+                                        <td>{{ $date->event_title }}</td>
+                                        <td> {{ $date->event_location }} </td>
+                                        {{-- <td><a href="" class="btn btn-primary">Detail</a></td> --}}
+                                    </tr>
+                                @endforeach
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="tab-pane fade" id="november" role="tabpanel" aria-labelledby="profile-tab">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Event Date</th>
+                                    <th>Event Title</th>
+                                    <th>Event Location</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach ($dates['november'] as $date)
+                                    <tr>
+                                        <td>{{ Carbon\Carbon::parse($date->event_date)->format('M-d-Y') }} </td>
+                                        <td>{{ $date->event_title }}</td>
+                                        <td> {{ $date->event_location }} </td>
+                                        {{-- <td><a href="" class="btn btn-primary">Detail</a></td> --}}
+                                    </tr>
+                                @endforeach
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="tab-pane fade" id="december" role="tabpanel" aria-labelledby="profile-tab">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Event Date</th>
+                                    <th>Event Title</th>
+                                    <th>Event Location</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach ($dates['december'] as $date)
+                                    <tr>
+                                        <td>{{ Carbon\Carbon::parse($date->event_date)->format('M-d-Y') }} </td>
+                                        <td>{{ $date->event_title }}</td>
+                                        <td> {{ $date->event_location }} </td>
+                                        {{-- <td><a href="" class="btn btn-primary">Detail</a></td> --}}
+                                    </tr>
+                                @endforeach
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="tab-pane fade" id="january" role="tabpanel" aria-labelledby="profile-tab">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Event Date</th>
+                                    <th>Event Title</th>
+                                    <th>Event Location</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach ($dates['january'] as $date)
+                                    <tr>
+                                        <td>{{ Carbon\Carbon::parse($date->event_date)->format('M-d-Y') }} </td>
+                                        <td>{{ $date->event_title }}</td>
+                                        <td> {{ $date->event_location }} </td>
+                                        {{-- <td><a href="" class="btn btn-primary">Detail</a></td> --}}
+                                    </tr>
+                                @endforeach
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="tab-pane fade" id="february" role="tabpanel" aria-labelledby="profile-tab">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Event Date</th>
+                                    <th>Event Title</th>
+                                    <th>Event Location</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach ($dates['february'] as $date)
+                                    <tr>
+                                        <td>{{ Carbon\Carbon::parse($date->event_date)->format('M-d-Y') }} </td>
+                                        <td>{{ $date->event_title }}</td>
+                                        <td> {{ $date->event_location }} </td>
+                                        {{-- <td><a href="" class="btn btn-primary">Detail</a></td> --}}
+                                    </tr>
+                                @endforeach
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="tab-pane fade" id="march" role="tabpanel" aria-labelledby="profile-tab">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Event Date</th>
+                                    <th>Event Title</th>
+                                    <th>Event Location</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach ($dates['march'] as $date)
+                                    <tr>
+                                        <td>{{ Carbon\Carbon::parse($date->event_date)->format('M-d-Y') }} </td>
+                                        <td>{{ $date->event_title }}</td>
+                                        <td> {{ $date->event_location }} </td>
+                                        {{-- <td><a href="" class="btn btn-primary">Detail</a></td> --}}
+                                    </tr>
+                                @endforeach
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="tab-pane fade" id="april" role="tabpanel" aria-labelledby="profile-tab">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Event Date</th>
+                                    <th>Event Title</th>
+                                    <th>Event Location</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach ($dates['april'] as $date)
+                                    <tr>
+                                        <td>{{ Carbon\Carbon::parse($date->event_date)->format('M-d-Y') }} </td>
+                                        <td>{{ $date->event_title }}</td>
+                                        <td> {{ $date->event_location }} </td>
+                                        {{-- <td><a href="" class="btn btn-primary">Detail</a></td> --}}
+                                    </tr>
+                                @endforeach
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="tab-pane fade" id="may" role="tabpanel" aria-labelledby="profile-tab">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Event Date</th>
+                                    <th>Event Title</th>
+                                    <th>Event Location</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach ($dates['may'] as $date)
+                                    <tr>
+                                        <td>{{ Carbon\Carbon::parse($date->event_date)->format('M-d-Y') }} </td>
+                                        <td>{{ $date->event_title }}</td>
+                                        <td> {{ $date->event_location }} </td>
+                                        {{-- <td><a href="" class="btn btn-primary">Detail</a></td> --}}
+                                    </tr>
+                                @endforeach
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="tab-pane fade" id="june" role="tabpanel" aria-labelledby="profile-tab">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Event Date</th>
+                                    <th>Event Title</th>
+                                    <th>Event Location</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach ($dates['june'] as $date)
+                                    <tr>
+                                        <td>{{ Carbon\Carbon::parse($date->event_date)->format('M-d-Y') }} </td>
+                                        <td>{{ $date->event_title }}</td>
+                                        <td> {{ $date->event_location }} </td>
+                                        {{-- <td><a href="" class="btn btn-primary">Detail</a></td> --}}
+                                    </tr>
+                                @endforeach
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="causes-one">
     <div class="container">
         <div class="section-title text-center">

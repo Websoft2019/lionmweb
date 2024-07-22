@@ -16,14 +16,38 @@ use App\Models\Member_Designation_Enroll;
 use App\Models\Member;
 use App\Models\Officer;
 use PDF;
+use App\Models\DCalendar;
 
 class SiteController extends Controller
 {
+    private function getCalender()
+    {
+        $lionYear = explode('/', env("lion_year"));
+        $startYear = $lionYear[0];
+        $endYear = 20 . $lionYear[1];
+
+        return [
+            'july' => DCalendar::where('event_month', $startYear . "-" . "07")->get(),
+            'august' => DCalendar::where('event_month', $startYear . "-" . "08")->get(),
+            'september' => DCalendar::where('event_month', $startYear . "-" . "09")->get(),
+            'october' => DCalendar::where('event_month', $startYear . "-" . "10")->get(),
+            'november' => DCalendar::where('event_month', $startYear . "-" . "11")->get(),
+            'december' => DCalendar::where('event_month', $startYear . "-" . "12")->get(),
+            'january' => DCalendar::where('event_month', $endYear . "-" . "01")->get(),
+            'february' => DCalendar::where('event_month', $endYear . "-" . "02")->get(),
+            'march' => DCalendar::where('event_month', $endYear . "-" . "03")->get(),
+            'april' => DCalendar::where('event_month', $endYear . "-" . "04")->get(),
+            'may' => DCalendar::where('event_month', $endYear . "-" . "05")->get(),
+            'june' => DCalendar::where('event_month', $endYear . "-" . "06")->get(),
+        ];
+    }
+
     public function getHome(){
         $data =[
             'programs'=>Program::where('lion_year', '2022/23')->get(),
             'notices' => Notice::orderby('id', 'desc')->get(),
-            'donations' => Donortype::all()
+            'donations' => Donortype::all(),
+            'dates' => $this->getCalender(),
         ];
         return view('site.home', $data);
 
