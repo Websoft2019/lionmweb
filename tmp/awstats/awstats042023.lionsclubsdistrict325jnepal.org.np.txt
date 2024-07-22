@@ -1,0 +1,411 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202304 will be lost/reset.
+# Last config file used to build this data file was /home6/lionsclu/tmp/awstats/awstats.lionsclubsdistrict325jnepal.org.np.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2032                
+POS_TIME 2698                
+POS_VISITOR 8280                
+POS_DAY 10214               
+POS_DOMAIN 3414                
+POS_LOGIN 3776                
+POS_ROBOT 3931                
+POS_WORMS 4469                
+POS_EMAILSENDER 4600                
+POS_EMAILRECEIVER 4743                
+POS_SESSION 10657               
+POS_SIDER 10835               
+POS_FILETYPES 4878                
+POS_DOWNLOADS 5117                
+POS_OS 5165                
+POS_BROWSER 5386                
+POS_SCREENSIZE 5939                
+POS_UNKNOWNREFERER 6013                
+POS_UNKNOWNREFERERBROWSER 6299                
+POS_ORIGIN 6419                
+POS_SEREFERRALS 6556                
+POS_PAGEREFS 6729                
+POS_SEARCHWORDS 7232                
+POS_KEYWORDS 7384                
+POS_MISC 2362                
+POS_ERRORS 7443                
+POS_CLUSTER 3632                
+POS_SIDER_404 7555                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230501042926 68 16734 18541953667321
+FirstTime 0
+LastTime 20230430163950
+LastUpdate 20230501120841 68 0 67 0 0
+TotalVisits 46                  
+TotalUnique 44                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 48                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 6 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 56 376 26691732 3 12 207832
+1 4 4 45867 0 1 120622
+2 2 2 10850 10 239 6931295
+3 2 2 15969 13 51 875108
+4 9 10 417943 42 389 4664164
+5 0 0 0 1 35 649426
+6 5 67 6138922 7 57 1512547
+7 0 0 0 1 3 378310
+8 0 0 0 2 30 485850
+9 8 112 3245527 2 43 1302102
+10 1 1 11462 0 5 310727
+11 0 0 0 9 105 5332450
+12 2 2 22924 1 59 3036557
+13 0 0 0 0 1 2272
+14 11 99 9006063 2 11 320274
+15 4 70 6078750 4 43 811512
+16 4 8 528359 2 11 254384
+17 7 45 1313162 3 34 2282435
+18 0 0 0 5 124 2177787
+19 5 31 450143 4 6 39839
+20 0 0 0 1 6 24561
+21 15 81 7389701 2 15 172338
+22 0 0 0 1 29 2999760
+23 0 0 0 1 2 6774
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 10
+us 81 467 34205077
+cn 17 145 7929784
+in 17 107 9525698
+np 8 112 3245527
+vn 4 70 6078750
+zz 3 3 261
+nl 2 2 22943
+mn 1 2 341466
+se 1 1 8940
+ua 1 1 8928
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+bingbot/ 726 10933729 20230426044819 19
+baidu 231 17713247 20230430184007 0
+Googlebot/ 107 740829 20230430184137 23
+bingpreview 39 1877556 20230416044915 0
+Googlebot\-Image/ 18 2512063 20230430122457 0
+Baiduspider/ 8 97440 20230430184002 0
+unknown 8 192 20230430054953 8
+DuckDuckGo\-Favicons\-Bot/ 2 15299 20230403065432 0
+facebookexternalhit/ 2 327005 20230416083908 0
+Applebot/ 1 11481 20230417211923 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+jpg 72 12186592 0 0
+ttf 12 163740 0 0
+woff2 24 1905120 0 0
+js 339 4030345 0 0
+html 38 617538 0 0
+svg 1 1043 0 0
+Unknown 61 1050018 0 0
+png 98 40183910 0 0
+css 265 1229068 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+Unknown 112 46
+linux 4 4
+androidoreo 67 5
+android10 1 1
+android 1 1
+macosx15 9 9
+androidmarshmallow 3 1
+macosx8 3 3
+win10 651 62
+linuxubuntu 1 1
+win7 58 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 23
+chrome76.0.3809.71 140 8
+chrome79.0.3945.79 140 8
+mozilla 104 38
+chrome80.0.3987.162 1 1
+chrome95.0.4638.54 1 1
+chrome108.0.0.0 1 1
+firefox105.0 1 1
+chrome84.0.4147.105 1 1
+chrome26.0.1410.65 3 3
+chrome110.0.0.0 3 3
+chrome87.0.4280.88 67 5
+chrome107.0.0.0 1 1
+chrome111.0.0.0 115 24
+chrome87.0.4280.141 1 1
+chrome85.0.4183.121 1 1
+Unknown 8 8
+chrome83.0.4103.97 3 3
+chrome112.0.0.0 182 12
+chrome103.0.0.0 2 2
+chrome83.0.4103.61 58 2
+chrome111.0.5563.146 1 1
+chrome106.0.0.0 3 1
+chrome78.0.3904.87 73 9
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20230416005141
+Mozilla/5.0_(compatible;_Dataprovider.com) 20230424210753
+Cpanel-HTTP-Client/1.0 20230416001015
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Cpanel-HTTP-Client/1.0 20230416001015
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 78 78
+From1 0 0
+From2 2 2
+From3 7 167
+From4 48 663
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+baidu 1 1
+www_google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+http://mail.lionsclubsdistrict325jnepal.org.np/site/assets/vendors/fontawesome/css/all.min.css 4 4
+http://mail.lionsclubsdistrict325jnepal.org.np/site/assets/vendors/oxpins-icons/style.css 2 2
+http://cato.brightcloud.com 1 1
+http://mail.lionsclubsdistrict325jnepal.org.np/site/assets/css/style.css 0 2
+http://mail.lionsclubsdistrict325jnepal.org.np 0 158
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 4 912
+404 155 666345
+301 4 2828
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 11
+/security.txt 1 -
+/ads.txt 6 -
+/app-ads.txt 115 -
+/humans.txt 1 -
+/department/teams/governor-team 1 -
+/wp-login.php 1 -
+/.well-known/security.txt 1 -
+/assets/images/backgrounds/page-header-bg.jpg 2 http://lionsclubsdistrict325jnepal.org.np/aboutus
+/department/teams/district-governors-team 1 -
+/sitemap.xml 1 -
+/site/assets/images/backgrounds/site-footer-bg.jpg 25 http://lionsclubsdistrict325jnepal.org.np/aboutus
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 48
+192.46.211.19 23 23 1817 20230416005142
+45.123.223.161 12 102 9475013 20230402161139
+149.56.150.170 11 11 1110584 20230424210717
+113.199.228.175 8 112 3245527 20230428093416
+205.169.39.49 8 140 12724443 20230416005836
+205.169.39.177 5 99 6951741 20230416005308
+205.169.39.175 5 99 6951735 20230416005309
+45.123.223.202 5 5 50685 20230406042054
+149.56.160.146 4 70 6279117 20230424210750
+104.238.137.193 4 4 30280 20230418040512
+118.68.70.29 4 70 6078750 20230419152020
+27.115.124.118 3 16 736443 20230413060844
+23.178.112.209 3 3 261 20230416005132
+171.13.14.76 2 8 177287 20230414190251
+106.75.240.243 2 2 22924 20230411014023
+13.59.150.229 2 2 174 20230416005131
+171.13.14.75 2 16 128147 20230414190250
+154.13.111.44 2 2 10850 20230421025024
+15.204.182.106 2 2 22943 20230418010610
+27.115.124.101 2 32 2987584 20230413060844
+171.13.14.42 2 7 147407 20230416170801
+34.208.129.164 2 2 174 20230416005131
+35.163.173.173 1 1 87 20230416005131
+35.209.115.170 1 1 11462 20230407002040
+171.13.14.83 1 11 816036 20230416170801
+171.13.14.40 1 8 36873 20230416170805
+65.109.163.80 1 1 8919 20230416005437
+54.212.94.235 1 1 11462 20230430163950
+34.218.248.180 1 1 11462 20230429175332
+54.187.12.152 1 1 11462 20230429175334
+171.13.14.50 1 1 11462 20230416161132
+143.198.130.159 1 1 11462 20230407170246
+54.184.90.65 1 1 11462 20230429195721
+194.26.135.17 1 1 11462 20230407103327
+44.200.209.28 1 1 8928 20230414142117
+104.227.101.129 1 1 11462 20230425065010
+95.216.188.234 1 1 8928 20230416005431
+171.13.14.15 0 6 133247 
+3.135.9.157 1 1 87 20230416005131
+171.13.14.39 0 3 94413 
+34.208.163.178 1 1 11502 20230415003221
+27.115.124.53 0 19 2414895 
+46.101.73.221 1 1 11481 20230420042941
+171.13.14.84 1 11 147119 20230416122947
+122.254.84.236 1 2 341466 20230406045529
+171.13.14.41 0 5 75947 
+54.190.19.59 1 1 11462 20230418122008
+185.65.135.249 1 1 8940 20230416005425
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 17
+20230402 12 102 9475013 2
+20230406 6 7 392151 2
+20230407 3 3 34386 3
+20230411 3 3 34386 2
+20230413 4 66 6127460 2
+20230414 5 31 447609 3
+20230415 1 1 11502 1
+20230416 59 419 27986563 17
+20230418 7 7 64685 3
+20230419 4 70 6078750 1
+20230420 1 1 11481 1
+20230421 2 2 10850 1
+20230424 15 81 7389701 2
+20230425 1 1 11462 1
+20230428 8 112 3245527 1
+20230429 3 3 34386 3
+20230430 1 1 11462 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+30mn-1h 1
+5mn-15mn 2
+30s-2mn 1
+0s-30s 42
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 37
+/ 38 617538 31 21
+/site/assets/vendors/fontawesome/webfonts/fa-brands-400.woff2 12 941520 2 6
+/site/assets/vendors/oxpins-icons/fonts/icomoond671.ttf 12 163740 1 4
+/site/assets/vendors/fontawesome/webfonts/fa-solid-900.woff2 12 963600 1 3
+/contact 5 101940 1 2
+/aboutus 4 101592 1 1
+/.well-known/acme-challenge/82qilXeFMLXwOBPo-pfgfIanOUotYxWrB9tJKNF_2l8 3 261 1 1
+/.well-known/acme-challenge/NMK6GPFlNstfSBbw5STujgu4xYypYpKKrW3a7SvR0m0 3 261 0 0
+/.well-known/acme-challenge/_wJkwYZjRzcPg0kycfbdTD_kkL2f2H4F8bqMVtlNyi4 3 261 0 1
+/.well-known/acme-challenge/q4OdzdJP9wkIviT66SJng4rqD5-2ijkMdPL24-T9UV8 3 261 1 2
+/.well-known/acme-challenge/6022vJMIZoBSAu_1ncqhc1mGh32y7cW0aovH1UIwwKM 3 261 0 0
+/.well-known/acme-challenge/OCi8ywJJScu674RnVcuUl2F94X3CQ-64zAXF59R47D8 3 261 0 0
+/.well-known/acme-challenge/3K0jR1pcP3OVp1ivH__JCA0p7_aOSMcg2icgjRxwWsk 3 261 0 0
+/.well-known/acme-challenge/u97ubqk8_7jitOdSVCtdKmIjpzb-Ync7eqrZFiF30QE 3 261 3 2
+/admin/club/manage 2 36781 0 1
+/admin/district-deparment/manage 2 18210 0 0
+/department/governor-team 2 88106 0 1
+/admin/login 2 14438 1 0
+/admin/dashboard 2 13086 0 0
+/.well-known/acme-challenge/OMA0MJYYUYYLHEQHHZOK9S1HVPKO3NQM 1 64 1 0
+/.well-known/acme-challenge/5T_552-NYPKWAD4II0HJ0KFB65SKOKJQ 1 64 0 0
+/.well-known/acme-challenge/MKZLSQ2Q2HZ6F-S1_JLL7HX3A41O-0MZ 1 64 0 0
+/teams 1 104079 0 0
+/clubs 1 243777 0 0
+/.well-known/acme-challenge/AOPLHL4ZKDNZ1F3DLCMM3XW_ZM5I7EH8 1 64 0 0
+/login 1 75109 0 0
+/.well-known/acme-challenge/JOP4PSJKNY6V-4O8E096DJ647VOAOGZJ 1 64 0 0
+/.well-known/acme-challenge/Q32Y0AJNWJ9HZVBFIIDCY_28G9MRL12_ 1 64 0 0
+/admin/manage/news 1 5312 1 1
+/department/chief-leo-advisor 1 6349 1 0
+/admin/Ajax/ContactPersonChange 1 162 0 0
+/department/chief-ligal-counselor 1 6349 0 0
+/department/district-co-ordinator 1 77678 0 0
+/.well-known/acme-challenge/4-I1PBBRSU3KDZDWKEOLGB50CWWJ1R3R 1 64 0 0
+/program/leadership-development-programs 1 76889 0 0
+/.well-known/acme-challenge/WHY1BN4PWFS3MQYZ1NUW782A4B0QQ0DG 1 64 0 0
+/program/child-and-women-support-programme 1 77561 0 0
+END_SIDER

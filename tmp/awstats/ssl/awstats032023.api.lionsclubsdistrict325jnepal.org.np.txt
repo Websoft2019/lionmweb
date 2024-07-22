@@ -1,0 +1,339 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202303 will be lost/reset.
+# Last config file used to build this data file was /home6/lionsclu/tmp/awstats/ssl/awstats.api.lionsclubsdistrict325jnepal.org.np.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2040                
+POS_TIME 2699                
+POS_VISITOR 7442                
+POS_DAY 8417                
+POS_DOMAIN 3299                
+POS_LOGIN 3567                
+POS_ROBOT 3722                
+POS_WORMS 3999                
+POS_EMAILSENDER 4130                
+POS_EMAILRECEIVER 4273                
+POS_SESSION 8816                
+POS_SIDER 8983                
+POS_FILETYPES 4408                
+POS_DOWNLOADS 4524                
+POS_OS 4572                
+POS_BROWSER 4790                
+POS_SCREENSIZE 5136                
+POS_UNKNOWNREFERER 5210                
+POS_UNKNOWNREFERERBROWSER 5527                
+POS_ORIGIN 5753                
+POS_SEREFERRALS 5887                
+POS_PAGEREFS 6031                
+POS_SEARCHWORDS 6246                
+POS_KEYWORDS 6398                
+POS_MISC 2362                
+POS_ERRORS 6457                
+POS_CLUSTER 3423                
+POS_SIDER_404 6607                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230403113353 1 0 6338012159328
+FirstTime 0
+LastTime 20230323104959
+LastUpdate 20230403120947 1 0 0 0 0
+TotalVisits 30                  
+TotalUnique 24                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 24                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 14 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 35264 0 0 0
+1 1 1 5540 0 0 0
+2 1 1 5540 0 0 0
+3 6 6 13084 6 8 4733
+4 2 2 105 0 3 48
+5 12 12 3820 25 32 582228
+6 4 4 1344 2 2 17681
+7 2 2 134 0 0 0
+8 4 4 11236 0 2 0
+9 5 5 5109 6 12 594355
+10 2 2 148 18 20 1989268
+11 0 1 0 13 16 45400
+12 0 0 0 1 1 2272
+13 2 2 35264 0 0 0
+14 1 1 56 2 3 3501
+15 4 4 45282 15 16 500871
+16 0 0 0 7 7 594027
+17 3 3 11146 203 204 765415
+18 2 2 122 0 0 0
+19 1 1 56 0 0 0
+20 1 1 5540 1 1 17632
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 1 1 5540 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+np 33 34 18360
+us 13 13 120388
+in 8 8 10318
+eu 2 2 35264
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+unknown 7 168 20230321045735 7
+facebookexternalhit/ 2 76 20230313053309 0
+survey 2 35264 20230307204906 0
+no_user_agent 1 17632 20230324061133 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+Unknown 38 13651 0 0
+png 1 0 0 0
+html 18 170679 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+androidcupcake 1 1
+macosx13 1 1
+androidkitkat 2 2
+linux 3 3
+win10 21 20
+linuxubuntu 1 1
+androidnougat 1 1
+Unknown 22 22
+android 3 3
+macosx 1 1
+win7 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 15
+chrome10.0.613.0 1 1
+chrome111.0.0.0 5 4
+chrome91.0.4472.124 13 13
+chrome55.0.2883.87 1 1
+chrome87.0.4280.88 1 1
+chrome64.0.3282.186 1 1
+Unknown 18 18
+mozilla 4 4
+chrome94.0.4606.81 1 1
+chrome110.0.0.0 3 3
+android 3 3
+firefox58.0 1 1
+chrome91.0.4472.114 3 3
+chrome59.0.3071.125 1 1
+msie11.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+PostmanRuntime/7.31.1 20230320035150
+PostmanRuntime/7.31.3 20230322031145
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20230322085824
+node-fetch/1.0_(_https://github.com/bitinn/node-fetch) 20230315060606
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+node-fetch/1.0_(_https://github.com/bitinn/node-fetch) 20230315060606
+PostmanRuntime/7.31.3 20230322031145
+PostmanRuntime/7.31.1 20230320035150
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 43 43
+From1 0 0
+From2 0 0
+From3 13 13
+From4 0 1
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+https://dev-adminapi.fonepay.com 12 12
+https://dev.fonepay.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+400 6 592
+403 195 239655
+404 34 57950
+500 41 4764706
+405 9 652
+401 16 736
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 17
+/fonepayresult/withoutheader 1 -
+/registrations/members 9 -
+/test 3 -
+/necolas/normalize.css 1 -
+/api/departments 1 -
+/images/icons/gear.png 6 https://api.lionsclubsdistrict325jnepal.org.np/api/fonepayresult/withheader
+/clubs 1 -
+/AWSconf.git/config 1 -
+/dot.git/config 1 -
+/.env 1 -
+/prod.git/config 1 -
+/api//registrations/members 1 -
+/api/department/department_details 1 -
+/api/department_details 2 -
+/api/department/member_details 1 -
+/fonepayresult/withoutheader&PRN=23lHmKQu 2 https://l.messenger.com/
+/sitemap.xml 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 24
+202.51.87.2 14 15 5122 20230315105120
+202.51.87.23 6 6 424 20230316081117
+111.119.42.61 5 5 7544 20230322031145
+45.123.223.237 4 4 5197 20230315190521
+202.51.87.234 4 4 100 20230310091724
+69.4.87.74 2 2 35264 20230308151805
+69.4.89.106 2 2 35264 20230303134634
+54.90.219.17 2 2 11080 20230313032206
+93.119.227.19 2 2 35264 20230304004044
+45.123.223.172 1 1 56 20230318183928
+167.248.133.191 1 1 5540 20230322085824
+3.131.98.176 1 1 5540 20230314200728
+27.34.57.128 1 1 49 20230321045734
+167.248.133.190 1 1 5540 20230315023836
+202.51.87.144 1 1 56 20230323104959
+202.51.87.26 1 1 5009 20230314094503
+202.51.87.240 1 1 56 20230323051136
+167.94.138.126 1 1 5540 20230309083220
+45.123.223.212 1 1 5009 20230312152943
+167.248.133.52 1 1 5540 20230312171906
+45.123.223.201 1 1 56 20230316142738
+18.218.52.190 1 1 5540 20230305232850
+104.248.191.21 1 1 5540 20230319170213
+150.107.107.7 1 1 0 20230312055430
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 17
+20230303 2 2 35264 1
+20230304 2 2 35264 1
+20230305 1 1 5540 1
+20230308 2 2 35264 1
+20230309 1 1 5540 1
+20230310 4 4 100 1
+20230312 3 3 10549 3
+20230313 2 2 11080 2
+20230314 3 3 15558 3
+20230315 18 19 10850 5
+20230316 7 7 480 3
+20230318 1 1 56 1
+20230319 1 1 5540 1
+20230320 4 4 5363 1
+20230321 1 1 49 1
+20230322 2 2 7721 2
+20230323 2 2 112 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+0s-30s 24
+30mn-1h 3
+2mn-5mn 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 9
+/api/fonepayresult/withoutheader 19 1077 11 11
+/ 18 170679 15 15
+/api/registrations/members 12 4052 0 1
+/api/program 2 4362 1 2
+/api/department 1 671 1 0
+/api/department/region 1 951 0 0
+/api/login 1 978 1 0
+/api/department/zone 1 1560 0 0
+/api/fonepayresult/withheader 1 0 1 1
+END_SIDER

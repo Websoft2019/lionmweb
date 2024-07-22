@@ -1,0 +1,341 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202208 will be lost/reset.
+# Last config file used to build this data file was /home6/lionsclu/tmp/awstats/ssl/awstats.lionsclubsdistrict325jnepal.org.np.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2036                
+POS_TIME 2708                
+POS_VISITOR 8257                
+POS_DAY 9414                
+POS_DOMAIN 3299                
+POS_LOGIN 3603                
+POS_ROBOT 3758                
+POS_WORMS 4008                
+POS_EMAILSENDER 4139                
+POS_EMAILRECEIVER 4282                
+POS_SESSION 9633                
+POS_SIDER 9806                
+POS_FILETYPES 4417                
+POS_DOWNLOADS 4669                
+POS_OS 4717                
+POS_BROWSER 4843                
+POS_SCREENSIZE 5084                
+POS_UNKNOWNREFERER 5158                
+POS_UNKNOWNREFERERBROWSER 5530                
+POS_ORIGIN 5897                
+POS_SEREFERRALS 6033                
+POS_PAGEREFS 6196                
+POS_SEARCHWORDS 6344                
+POS_KEYWORDS 6496                
+POS_MISC 2372                
+POS_ERRORS 6555                
+POS_CLUSTER 3459                
+POS_SIDER_404 6677                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220901044537 1 0 11828538861505
+FirstTime 20220801202359
+LastTime 20220822043631
+LastUpdate 20220901121320 1 0 0 0 0
+TotalVisits 17                  
+TotalUnique 17                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 33                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 20 2524678 2 2 69561
+1 0 0 0 1 1 32313
+2 0 0 0 1 1 8245
+3 1 16 2617819 0 0 0
+4 5 56 1454274 0 1 1992
+5 0 0 0 0 0 0
+6 0 0 0 1 1 0
+7 1 1 0 0 0 0
+8 16 94 6738746 3 15 24453
+9 19 22 200058 4 45 82422
+10 85 434 21493636 11 93 165382
+11 9 81 6965711 1 6 71851
+12 0 0 0 0 0 0
+13 0 0 0 0 0 0
+14 0 0 0 1 1 8245
+15 0 0 0 0 0 0
+16 0 0 0 0 0 0
+17 0 0 0 2 2 8280
+18 0 0 0 0 0 0
+19 0 0 0 0 0 0
+20 1 1 32747 1 1 32301
+21 0 0 0 5 5 123578
+22 0 0 0 2 2 123667
+23 0 0 0 1 1 168
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+in 85 239 15665502
+np 46 442 21113555
+us 4 34 4840274
+kr 3 7 373497
+jp 1 2 2094
+ca 1 1 32747
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+Apache\-HttpClient/ 5 94296 20220810004441 0
+no_user_agent 4 156095 20220830011553 0
+survey 4 217284 20220810222750 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+png 89 27906410 0 0
+woff 1 22280 0 0
+js 235 2865028 0 0
+html 14 98677 0 0
+Unknown 98 581923 0 0
+css 199 907074 0 0
+jpg 60 8093015 0 0
+woff2 19 1442388 0 0
+ttf 8 108872 0 0
+svg 2 2002 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 5
+win10 549 99
+macosx15 119 36
+win7 51 4
+linux 5 0
+Unknown 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 9
+chrome96.0.4664.45 2 0
+chrome95.0.4638.69 9 0
+chrome103.0.0.0 292 25
+Unknown 1 1
+chrome96.0.4664.55 5 1
+opera80.0.4170.63 5 1
+chrome104.0.0.0 389 106
+chrome83.0.4103.106 16 6
+firefox91.0 6 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220801202359
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220801202359
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 21 56
+From1 0 0
+From2 4 4
+From3 0 0
+From4 115 665
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+404 141 280872
+302 17 3169
+301 4 672
+401 2 70
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 13
+/assets/img/small-logos/logo-atlassian.svg 10 https://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/assets/img/small-logos/logo-slack.svg 10 https://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/assets/images/backgrounds/page-header-bg.jpg 3 https://www.lionsclubsdistrict325jnepal.org.np/aboutus
+/assets/img/small-logos/logo-invision.svg 10 https://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/site/assets/images/backgrounds/site-footer-bg.jpg 37 https://www.lionsclubsdistrict325jnepal.org.np/clubs
+/assets/img/team-1.jpg 10 https://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/assets/img/team-2.jpg 10 https://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/assets/img/team-3.jpg 10 https://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/club/assets/images/backgrounds/page-header-bg.jpg 1 https://lionsclubsdistrict325jnepal.org.np/club/profile
+/assets/img/small-logos/logo-spotify.svg 10 https://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/assets/img/team-4.jpg 10 https://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/assets/img/small-logos/logo-jira.svg 10 https://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/assets/img/small-logos/logo-xd.svg 10 https://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 33
+150.107.107.53 85 239 15665502 20220818105333
+202.51.86.240 15 79 1848790 20220818082125
+43.245.86.30 9 81 6965711 20220807110215
+120.89.97.6 8 107 3056555 20220818102606
+43.245.86.2 5 56 1454274 20220822043631
+120.89.97.7 4 53 1449657 20220818102910
+120.89.97.133 4 51 1448612 20220818102743
+54.210.250.65 1 2 67437 20220810004612
+34.207.194.89 1 4 73368 20220807090657
+54.227.32.154 1 11 2242228 20220808033717
+118.217.2.78 1 1 0 20220807090640
+198.235.24.32 1 1 32747 20220801202359
+221.118.46.110 1 1 0 20220807090624
+123.199.67.250 1 1 0 20220803071639
+175.127.174.16 1 1 0 20220810004539
+202.51.76.213 1 15 4889956 20220818085149
+3.82.252.38 1 2 640552 20220810004543
+35.175.140.40 0 1 222749 
+117.123.224.140 0 2 179813 
+34.226.123.202 0 1 94692 
+18.208.135.30 0 1 91212 
+44.201.117.149 0 1 2094 
+35.172.128.204 0 3 19235 
+54.196.60.66 0 1 166509 
+34.227.116.51 0 1 530209 
+120.51.147.86 0 1 2094 
+59.15.103.175 0 1 59211 
+54.174.97.240 0 2 222993 
+35.175.137.113 0 1 59211 
+54.211.240.239 0 1 128532 
+54.167.164.21 0 1 275416 
+1.248.127.250 0 1 134473 
+3.95.194.173 0 1 3837 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 7
+20220801 1 1 32747 1
+20220803 1 1 0 1
+20220807 12 87 7039079 4
+20220808 1 16 2617819 1
+20220810 3 20 2524678 3
+20220818 117 544 28359072 6
+20220822 5 56 1454274 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+30s-2mn 1
+1h+ 1
+0s-30s 13
+2mn-5mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 27
+/admin/club/manage 18 164977 0 1
+/ 14 98677 11 10
+/admin/district-team/manage 13 56099 0 0
+/admin/dashboard 11 61393 1 0
+/site/assets/vendors/fontawesome/webfonts/fa-solid-900.woff2 9 722700 0 1
+/site/assets/vendors/fontawesome/webfonts/fa-brands-400.woff2 9 706140 0 1
+/site/assets/vendors/oxpins-icons/fonts/icomoond671.ttf 8 108872 0 1
+/admin/login 7 31359 2 0
+/admin/donor/manage 6 30318 0 0
+/clubs 6 31174 1 0
+/login 6 27045 2 0
+/site/assets/images/favicons/site.webmanifest 5 1315 0 1
+/admin/club/add 5 24487 0 0
+/club/manage/members 4 19524 0 0
+/club/dashboard 3 11028 0 0
+/aboutus 3 15672 0 0
+/governors/teams 2 7924 0 2
+/admin/club/edit/77 2 23890 0 0
+/site/assets/vendors/oxpins-icons/fonts/icomoond671.woff 1 22280 0 0
+/site/assets/vendors/fontawesome/webfonts/fa-regular-400.woff2 1 13548 0 0
+/club/profile 1 3799 0 0
+/admin/club/edit/9 1 12006 0 0
+/club/profile/update 1 11472 0 0
+/admin/club/edit/13 1 11978 0 0
+/club/members/add 1 11495 0 0
+/cpanel 1 12990 0 0
+/admin/club/edit/10 1 11978 0 0
+END_SIDER

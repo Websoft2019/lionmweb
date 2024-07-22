@@ -1,0 +1,337 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202209 will be lost/reset.
+# Last config file used to build this data file was /home6/lionsclu/tmp/awstats/awstats.lionsclubsdistrict325jnepal.org.np.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2032                
+POS_TIME 2693                
+POS_VISITOR 8262                
+POS_DAY 9120                
+POS_DOMAIN 3332                
+POS_LOGIN 3603                
+POS_ROBOT 3758                
+POS_WORMS 4082                
+POS_EMAILSENDER 4213                
+POS_EMAILRECEIVER 4356                
+POS_SESSION 9437                
+POS_SIDER 9594                
+POS_FILETYPES 4491                
+POS_DOWNLOADS 4721                
+POS_OS 6070                
+POS_BROWSER 6277                
+POS_SCREENSIZE 6555                
+POS_UNKNOWNREFERER 6629                
+POS_UNKNOWNREFERERBROWSER 6769                
+POS_ORIGIN 6904                
+POS_SEREFERRALS 7039                
+POS_PAGEREFS 7183                
+POS_SEARCHWORDS 7331                
+POS_KEYWORDS 7483                
+POS_MISC 2357                
+POS_ERRORS 7542                
+POS_CLUSTER 3459                
+POS_SIDER_404 7632                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20221001012353 2 232 11685441758619
+FirstTime 0
+LastTime 20220930021729
+LastUpdate 20221001121208 2 0 1 0 0
+TotalVisits 19                  
+TotalUnique 17                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 22                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 2 3 6825
+1 0 0 0 2 2 4550
+2 5 78 6367857 2 57 758009
+3 0 8 616 4 7 259072
+4 18 95 7509096 0 16 36400
+5 0 0 0 0 1 91212
+6 0 0 0 0 0 0
+7 0 0 0 1 2 12081
+8 0 0 0 0 0 0
+9 1 15 4891589 0 2 168784
+10 0 8 512 0 1 128532
+11 1 17 7816 1 2 535448
+12 5 68 2065033 3 55 512839
+13 6 69 3499854 6 9 174685
+14 0 0 0 2 4 101517
+15 5 5 201117 0 3 13352
+16 1 4 37594 0 3 88568
+17 1 1 8244 2 4 288960
+18 1 1 8235 7 58 606292
+19 0 0 0 1 3 139023
+20 0 0 0 0 0 0
+21 3 3 24732 1 1 5197
+22 0 0 0 2 54 580072
+23 0 0 0 0 2 263005
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+np 33 315 24318098
+us 11 51 119328
+fr 3 3 184638
+gb 0 3 231
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+bingbot/ 223 3867839 20220930212742 15
+bingpreview 9 657244 20220930031115 0
+unknown 3 72 20220924161722 3
+survey 2 123437 20220905022537 0
+DuckDuckGo\-Favicons\-Bot/ 2 12081 20220906072528 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+html 23 346135 0 0
+css 88 284883 0 0
+woff2 9 489828 0 0
+txt 40 2872 0 0
+png 48 16616563 0 0
+ttf 4 40935 0 0
+js 103 968212 0 0
+Unknown 11 59228 0 0
+jpg 46 5813639 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 18
+/.well-known/pki-validation/9902A00512350FDE2EB2F40AED99A28C.txt 16 0 1232
+/.well-known/pki-validation/A6BDDEDBC054CDFCBA890E6E958EDCC7.txt 8 0 616
+/.well-known/pki-validation/5E128EFA6E760227F3C79C28BCA9B0BE.txt 1 0 64
+/.well-known/pki-validation/08170CC370E69D50EEFA406697C4BE31.txt 1 0 64
+/.well-known/pki-validation/99BE117379DBB7E27AB73A51B8073BED.txt 1 0 64
+/.well-known/pki-validation/93167A5DB087CEB6DCE2571A37E46671.txt 1 0 64
+/.well-known/pki-validation/1D3CE9181A567EB5B4C47ED6FBA3D2C3.txt 1 0 64
+/.well-known/pki-validation/C36AC150DB15CE884A4638E46E21B3C9.txt 1 0 64
+/.well-known/pki-validation/5B81296F8DD99E608FA2633943D89C93.txt 1 0 64
+/.well-known/pki-validation/221200C1D32D56B0A625CD3845CCB6EC.txt 1 0 64
+/.well-known/pki-validation/D3E1307633915F15200B524D5335D6BB.txt 1 0 64
+/.well-known/pki-validation/A4FDA5FCB8F6D69954217FFBDAD18C60.txt 1 0 64
+/.well-known/pki-validation/328209FB53B56E890EEA5A0091F9567D.txt 1 0 64
+/.well-known/pki-validation/5BA2547FB3AD40CBC6E0B534920141FC.txt 1 0 64
+/.well-known/pki-validation/58417F2EB81C0DACF62AE1DB5CD564E0.txt 1 0 64
+/.well-known/pki-validation/05B1CBD7774C16B7319BFBD89F367936.txt 1 0 64
+/.well-known/pki-validation/049F3B2A89426787DED0A20C2E1D983B.txt 1 0 64
+/.well-known/pki-validation/5C9DE4F645877CC17900F7E086308E1A.txt 1 0 64
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+android 67 4
+macosx10 2 2
+macosx8 1 1
+macosx15 2 2
+linux 2 2
+Unknown 40 0
+ios_iphone 69 6
+macosx11 1 1
+win7 3 0
+linuxubuntu 3 3
+win10 182 26
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 12
+Unknown 40 0
+firefox58.0 3 3
+chrome26.0.1410.65 1 1
+chrome105.0.0.0 181 25
+firefox59.0 2 2
+safari 69 6
+chrome51.0.2704.84 1 1
+chrome98.0.4758.101 67 4
+chrome95.0.4638.54 2 2
+firefox106.0 1 1
+msie9.0 3 0
+chrome84.0.4147.105 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+COMODO_DCV 20220928112221
+Sectigo_DCV 20220928112224
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+COMODO_DCV 20220928112221
+Sectigo_DCV 20220928112224
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 19 64
+From1 0 0
+From2 0 0
+From3 0 0
+From4 28 308
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 50 113750
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 9
+/sitemap_index.xml 4 -
+/sitemap.txt 5 -
+/sitemaps.xml 5 -
+/atom.xml 5 -
+/site/assets/images/backgrounds/site-footer-bg.jpg 20 http://www.lionsclubsdistrict325jnepal.org.np/
+/sitemap.xml.gz 4 -
+/sitemap.xml 5 -
+/assets/images/shapes/contact-three-shape.png 1 http://lionsclubsdistrict325jnepal.org.np/contact
+/ads.txt 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 22
+202.79.51.140 17 89 7052679 20220929044423
+110.44.118.102 6 69 3499854 20220923132420
+27.34.48.16 5 75 6815527 20220906040316
+120.89.104.49 4 67 2058449 20220923124027
+35.217.31.190 2 2 16479 20220910153644
+3.235.154.65 2 2 13168 20220918121418
+51.255.62.9 1 1 61661 20220929152424
+51.255.62.10 1 1 61201 20220929152424
+199.244.88.226 1 1 8244 20220929175554
+44.234.25.38 1 1 8244 20220928214404
+199.244.88.227 1 1 8244 20220902213151
+51.255.62.4 1 1 61776 20220929152424
+64.246.161.42 1 1 8235 20220924161723
+27.34.48.97 1 15 4891589 20220906091755
+198.244.152.59 1 1 8235 20220930021729
+199.244.88.222 1 1 8244 20220920213805
+216.145.5.42 1 1 8235 20220903184901
+91.199.212.132 0 3 231 
+157.55.39.31 0 1 6825 
+40.77.167.77 0 1 17278 
+192.46.211.19 0 37 2641 
+157.55.39.208 0 1 5256 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 12
+20220902 1 1 8244 1
+20220903 1 1 8235 1
+20220904 1 4 35943 1
+20220906 6 90 11707116 3
+20220910 2 2 16479 1
+20220918 1 1 6584 1
+20220920 1 1 8244 1
+20220923 10 136 5558303 2
+20220924 1 1 8235 1
+20220928 1 41 11116 1
+20220929 21 93 7245561 5
+20220930 1 1 8235 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+30s-2mn 1
+0s-30s 18
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 11
+/ 23 346135 18 14
+/site/assets/vendors/fontawesome/webfonts/fa-brands-400.woff2 4 235380 0 1
+/clubs 4 29036 0 0
+/site/assets/vendors/fontawesome/webfonts/fa-solid-900.woff2 4 240900 0 1
+/site/assets/vendors/oxpins-icons/fonts/icomoond671.ttf 4 40935 0 1
+/governors/teams 2 9581 1 1
+/donor/mjf 2 9848 0 0
+/site/assets/vendors/fontawesome/webfonts/fa-regular-400.woff2 1 13548 0 0
+/contact 1 5197 0 0
+/site/assets/images/favicons/site.webmanifest 1 263 0 0
+/login 1 5303 0 1
+END_SIDER

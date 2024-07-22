@@ -1,0 +1,409 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202212 will be lost/reset.
+# Last config file used to build this data file was /home6/lionsclu/tmp/awstats/awstats.lionsclubsdistrict325jnepal.org.np.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2032                
+POS_TIME 2706                
+POS_VISITOR 11832               
+POS_DAY 12826               
+POS_DOMAIN 3379                
+POS_LOGIN 3693                
+POS_ROBOT 3848                
+POS_WORMS 4167                
+POS_EMAILSENDER 4298                
+POS_EMAILRECEIVER 4441                
+POS_SESSION 13192               
+POS_SIDER 13372               
+POS_FILETYPES 4576                
+POS_DOWNLOADS 4827                
+POS_OS 8123                
+POS_BROWSER 8317                
+POS_SCREENSIZE 8631                
+POS_UNKNOWNREFERER 8705                
+POS_UNKNOWNREFERERBROWSER 9052                
+POS_ORIGIN 9244                
+POS_SEREFERRALS 9380                
+POS_PAGEREFS 9524                
+POS_SEARCHWORDS 9672                
+POS_KEYWORDS 9824                
+POS_MISC 2370                
+POS_ERRORS 9883                
+POS_CLUSTER 3549                
+POS_SIDER_404 9993                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230101001235 5 751 13251573520058
+FirstTime 20221201014141
+LastTime 20221231204957
+LastUpdate 20230101121437 5 0 4 0 0
+TotalVisits 24                  
+TotalUnique 22                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 24                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 1 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 9809 1 2 2299
+1 1 17 9212 1 4 97015
+2 0 16 1232 2 2 4550
+3 16 80 6252122 2 6 547997
+4 0 0 0 0 3 543537
+5 7 75 6587829 2 9 411710
+6 1 9 6822 3 6 277072
+7 17 165 4261742 5 10 20192
+8 0 8 616 1 2 90795
+9 0 0 0 5 53 837242
+10 1 1 13228 0 0 0
+11 0 0 0 2 3 227299
+12 1 1 9830 2 5 20153
+13 12 93 6818132 4 110 934943
+14 1 1 13227 20 155 2071113
+15 1 1 9809 5 7 19584
+16 0 0 0 1 1 2275
+17 0 0 0 6 8 239231
+18 5 21 256061 2 4 65226
+19 4 12 311009 5 51 1089702
+20 6 77 6641040 1 5 631726
+21 1 1 9830 3 5 13456
+22 0 0 0 2 8 555478
+23 0 0 0 3 4 204848
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+us 26 175 6329073
+in 25 228 11167770
+np 18 167 13395528
+fr 3 3 302205
+it 2 2 16743
+ca 1 1 0
+gb 0 3 231
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+bingbot/ 338 7100592 20221230054130 17
+bingpreview 45 1556983 20221228141034 0
+unknown 3 72 20221216215209 3
+facebookexternalhit/ 2 14657 20221225170846 0
+survey 1 59969 20221206184735 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+txt 88 6256 0 0
+css 136 637787 0 0
+html 23 734676 0 0
+svg 1 1043 0 0
+Unknown 30 823071 0 0
+woff2 15 1124868 0 0
+js 164 2033524 0 0
+png 75 20193282 0 0
+jpg 40 5561528 0 0
+ttf 7 95515 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 45
+/.well-known/pki-validation/6E156396D7A5504D28A7063BC2ADE5D3.txt 16 0 1232
+/.well-known/pki-validation/09ED3ED12EF96CFD90AB79FA4F05BCDC.txt 8 0 616
+/.well-known/pki-validation/C11BA80BADE422FBA726CD228C88C442.txt 8 0 616
+/.well-known/pki-validation/3365BD2E67E33F609C01E5FFFB24DE14.txt 8 0 616
+/.well-known/pki-validation/A2CB8EEA14D4EB7584CA246E5895AD8D.txt 8 0 616
+/.well-known/pki-validation/4C5F610BB19FC583820AA2A46E97A614.txt 1 0 64
+/.well-known/pki-validation/6FEF05991719A379726717A48FE41830.txt 1 0 64
+/.well-known/pki-validation/6745B53F38CE3DBE475804C7988B5BDE.txt 1 0 64
+/.well-known/pki-validation/376B23CC8699AA01B625A6C7322E8AC7.txt 1 0 64
+/.well-known/pki-validation/CF6EF74E2E6DE635396594FFA5B88C23.txt 1 0 64
+/.well-known/pki-validation/2FA3E8EE77FF18E598A718FC97274C57.txt 1 0 64
+/.well-known/pki-validation/40DA86F811B7AC5BF61CCB9156F18D17.txt 1 0 64
+/.well-known/pki-validation/86B616B0BF2E2B05A561D3426EB43D17.txt 1 0 64
+/.well-known/pki-validation/FF5431E5344B1401029CB5B3C3DD859E.txt 1 0 64
+/.well-known/pki-validation/AAF9EF77BF9CF4CE9E12B6989636AE84.txt 1 0 64
+/.well-known/pki-validation/702CACB085C4B5CAB667BDF1CEA4F979.txt 1 0 64
+/.well-known/pki-validation/7055A178941D1F9D6CE7BF4C7F567FA8.txt 1 0 64
+/.well-known/pki-validation/2D72F9B3816ECAC8238190CFEB76FEF6.txt 1 0 64
+/.well-known/pki-validation/4387498E8DA9EC4614DAC59066E29CEA.txt 1 0 64
+/.well-known/pki-validation/6ABBFBFAC1282A7DA3317A6064C7DF05.txt 1 0 64
+/.well-known/pki-validation/78B44D628F2191C7968EAEDB7DE3816C.txt 1 0 64
+/.well-known/pki-validation/474628010536E681BF302C7BC185A994.txt 1 0 64
+/.well-known/pki-validation/E782CAC27FBD64F51C4A6A785C3C2251.txt 1 0 64
+/.well-known/pki-validation/152ED9939E2551FA0A08994F519A1D68.txt 1 0 64
+/.well-known/pki-validation/2689ABB1CA9077D3DB1BC555718E08C9.txt 1 0 64
+/.well-known/pki-validation/94470A45188749D6F5B61ED4005086F0.txt 1 0 64
+/.well-known/pki-validation/9CF0BD5C7D8702B802D331B0DC8DC945.txt 1 0 64
+/.well-known/pki-validation/E071A36050A64EEBBD3FBA8052A9BF4C.txt 1 0 64
+/.well-known/pki-validation/7EFC006D9A3105B08E3C90A9C1201AF6.txt 1 0 64
+/.well-known/pki-validation/9FDCD9FB0B6EA0434BBE324CE372A320.txt 1 0 64
+/.well-known/pki-validation/04BA0F553171F80F3DC14640BFAC9B61.txt 1 0 64
+/.well-known/pki-validation/90220261469AEC2ABF15B39E951E6B4F.txt 1 0 64
+/.well-known/pki-validation/5CC3D6F9003499C80CC902C8F6412B1B.txt 1 0 64
+/.well-known/pki-validation/E410852FD1C79D0BFF9ECB4EB6E41258.txt 1 0 64
+/.well-known/pki-validation/3E7C9EB0C97E0F0966CF865A51507C2F.txt 1 0 64
+/.well-known/pki-validation/1E306C30053B0203F86C74FADDFD83D0.txt 1 0 64
+/.well-known/pki-validation/E869B6BF030AAFC1035042B693C9D590.txt 1 0 64
+/.well-known/pki-validation/4E1C439AD32D975B64ED6D49F2014F1B.txt 1 0 64
+/.well-known/pki-validation/C3ACFE22E2DA68401AD5D2EC6DF2221A.txt 1 0 64
+/.well-known/pki-validation/93C62A01B47DF5A1CCA4AED9C40E0724.txt 1 0 64
+/.well-known/pki-validation/AC713FAD9F8703B8B919145BEA8B6827.txt 1 0 64
+/.well-known/pki-validation/CEE9E94F877E59EBF4154284C2E2F5B6.txt 1 0 64
+/.well-known/pki-validation/8A7042F002F10715B1FD9369EF284CBB.txt 1 0 64
+/.well-known/pki-validation/505BE452CA424847D12054F754AB4A45.txt 1 0 64
+/.well-known/pki-validation/2D0D7BB9936541A9E436571E4AA65593.txt 1 0 64
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+linuxubuntu 3 3
+Unknown 171 19
+macosx8 1 1
+win10 78 10
+androidlollipop 1 1
+macosx10 1 1
+ios_ipad 93 12
+linux 2 2
+macosx15 229 26
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 14
+chrome45.0.2454.94 1 1
+chrome26.0.1410.65 1 1
+chrome95.0.4638.54 1 1
+safari 93 12
+firefox59.0 1 1
+chrome108.0.0.0 77 9
+chrome84.0.4147.105 1 1
+firefox108.0 1 1
+firefox107.0 225 22
+mozilla 82 18
+Unknown 89 1
+chrome105.0.0.0 2 2
+chrome103.0.0.0 2 2
+firefox58.0 3 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+COMODO_DCV 20221214075339
+Sectigo_DCV 20221214075345
+Mozilla/5.0_(compatible;_Dataprovider.com) 20221215033455
+got_(https://github.com/sindresorhus/got) 20221231204957
+Mozilla/5.0_(compatible;_Domains_Project/1.3.7;__https://domainsproject.org) 20221214075536
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+COMODO_DCV 20221214075339
+Sectigo_DCV 20221214075345
+got_(https://github.com/sindresorhus/got) 20221231204957
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 39 131
+From1 0 0
+From2 0 0
+From3 0 0
+From4 36 448
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+301 1 707
+404 71 174238
+302 1 225
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 26
+/assets/img/team-4.jpg 1 http://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/view-source: 1 -
+/wp-includes/wlwmanifest.xml 1 -
+/assets/img/team-2.jpg 1 http://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/assets/img/small-logos/logo-spotify.svg 1 http://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/ads.txt 2 -
+/misc/ajax.js 1 -
+/assets/img/small-logos/logo-jira.svg 1 http://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/site/assets/images/backgrounds/site-footer-bg.jpg 15 http://lionsclubsdistrict325jnepal.org.np/admin/login
+/assets/img/small-logos/logo-invision.svg 1 http://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/department/teams/departments-chief 4 -
+/assets/img/small-logos/logo-xd.svg 1 http://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/site/assets/vendors/bootstrap/css/bootstrap.min.css.map 3 -
+/sitemap.xml 1 -
+/department/teams/advisory-council 1 -
+/assets/img/small-logos/logo-slack.svg 1 http://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/department/teams/district-chiefs 9 -
+/.well-known/security.txt 1 -
+/api/club 1 -
+/administrator/index.php 1 -
+/department/teams/district-governors-team 13 -
+/department/teams/district-coordinators 1 -
+/assets/img/team-3.jpg 1 http://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/department/teams/district-co-chief-advisors 6 -
+/assets/img/team-1.jpg 1 http://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/assets/img/small-logos/logo-atlassian.svg 1 http://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 24
+150.107.107.8 13 137 4246771 20221213071302
+144.217.135.224 12 12 951374 20221215033417
+27.34.108.187 12 93 6818132 20221208133034
+45.123.223.228 7 78 6659838 20221210202547
+110.44.115.155 6 74 6577396 20221229060708
+45.123.223.147 4 12 247933 20221211184819
+149.56.150.195 4 68 5300748 20221215033453
+151.80.195.102 2 2 16743 20221226054107
+51.255.62.15 2 2 201935 20221215192730
+198.244.152.59 1 1 9830 20221215122403
+44.193.220.153 1 1 7616 20221215182556
+35.206.194.63 1 1 8188 20221201014141
+44.200.145.32 1 1 7656 20221231204957
+150.107.107.4 1 1 13228 20221208102706
+142.93.12.24 1 1 0 20221214075530
+199.244.88.224 1 1 8188 20221204192807
+64.246.161.30 1 1 9830 20221216215209
+67.205.156.138 1 1 0 20221214075540
+51.255.62.4 1 1 100270 20221215192730
+18.236.118.89 1 1 9809 20221224001357
+147.182.170.23 1 1 0 20221214075536
+199.244.88.232 1 1 9809 20221227150315
+192.46.211.19 0 85 6025 
+91.199.212.132 0 3 231 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 14
+20221201 1 1 8188 1
+20221204 1 1 8188 1
+20221208 13 94 6831360 2
+20221210 7 78 6659838 3
+20221211 4 12 247933 1
+20221213 13 185 4250155 1
+20221214 3 43 2872 3
+20221215 21 85 6571773 6
+20221216 1 1 9830 1
+20221224 1 1 9809 1
+20221226 2 2 16743 1
+20221227 1 1 9809 1
+20221229 6 74 6577396 1
+20221231 1 1 7656 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+0s-30s 19
+15mn-30mn 1
+30s-2mn 1
+5mn-15mn 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 23
+/ 23 734676 20 14
+/region-zone 9 64071 1 2
+/site/assets/vendors/fontawesome/webfonts/fa-brands-400.woff2 7 549220 0 1
+/site/assets/vendors/fontawesome/webfonts/fa-solid-900.woff2 7 562100 0 1
+/site/assets/vendors/oxpins-icons/fonts/icomoond671.ttf 7 95515 0 0
+/cpanel 3 39682 3 3
+/contact 2 78889 0 1
+/department/governor-team 2 79067 0 1
+/login 1 70285 0 0
+/admin/dashboard 1 7007 0 0
+/department/district-co-ordinator 1 72817 0 0
+/site/assets/images/favicons/site.webmanifest 1 263 0 0
+/clubs 1 10177 0 0
+/aboutus 1 72820 0 0
+/admin/district-deparment/manage 1 7027 0 1
+/program/child-and-women-support-programme 1 72737 0 0
+/department/lead-with-empathy 1 71651 0 0
+/admin/club/baglung-gauridham 1 9864 0 0
+/department/lions-quest 1 71617 0 0
+/site/assets/vendors/fontawesome/webfonts/fa-regular-400.woff2 1 13548 0 0
+/program/leadership-development-programs 1 72065 0 0
+/admin/login 1 6993 0 0
+/admin/club/manage 1 16039 0 0
+END_SIDER

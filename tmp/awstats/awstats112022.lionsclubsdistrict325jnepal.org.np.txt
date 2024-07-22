@@ -1,0 +1,338 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202211 will be lost/reset.
+# Last config file used to build this data file was /home6/lionsclu/tmp/awstats/awstats.lionsclubsdistrict325jnepal.org.np.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2032                
+POS_TIME 2691                
+POS_VISITOR 7764                
+POS_DAY 8870                
+POS_DOMAIN 3335                
+POS_LOGIN 3602                
+POS_ROBOT 3757                
+POS_WORMS 4092                
+POS_EMAILSENDER 4223                
+POS_EMAILRECEIVER 4366                
+POS_SESSION 9305                
+POS_SIDER 9494                
+POS_FILETYPES 4501                
+POS_DOWNLOADS 4735                
+POS_OS 4802                
+POS_BROWSER 4957                
+POS_SCREENSIZE 5172                
+POS_UNKNOWNREFERER 5246                
+POS_UNKNOWNREFERERBROWSER 5333                
+POS_ORIGIN 5415                
+POS_SEREFERRALS 5550                
+POS_PAGEREFS 5694                
+POS_SEARCHWORDS 5842                
+POS_KEYWORDS 5994                
+POS_MISC 2355                
+POS_ERRORS 6053                
+POS_CLUSTER 3458                
+POS_SIDER_404 6178                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20221201014141 1 0 14226732827689
+FirstTime 0
+LastTime 20221128162704
+LastUpdate 20221201121703 1 0 0 0 0
+TotalVisits 23                  
+TotalUnique 20                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 29                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 4 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 4 74 6394857 1 5 12783
+1 0 0 0 2 2 297069
+2 0 0 0 0 0 0
+3 0 4 150707 3 6 590099
+4 1 1 13228 1 1 289015
+5 0 1 3542 2 6 654620
+6 0 0 0 3 4 305282
+7 3 3 39682 0 1 0
+8 0 2 18219 2 3 297106
+9 30 342 32353526 14 87 2946444
+10 4 4 44627 1 5 288911
+11 7 73 3666283 0 3 636876
+12 0 1 30963 3 6 297962
+13 1 1 8079 0 0 0
+14 1 1 13227 1 2 8259
+15 0 0 0 0 0 0
+16 3 29 174496 1 2 288914
+17 1 1 13227 0 2 91236
+18 1 4 39449 2 3 297155
+19 0 0 0 0 0 0
+20 0 4 24050 3 5 396381
+21 0 2 46091 1 1 8188
+22 0 1 3252 0 1 24
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 3
+in 34 279 23183987
+np 12 144 12953183
+us 10 125 6900311
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+bingpreview 49 1985868 20221116095754 0
+bingbot/ 37 1583953 20221130004628 14
+DuckDuckGo\-Favicons\-Bot/ 2 11916 20221117055351 0
+unknown 2 48 20221126095250 2
+facebookexternalhit/ 1 24 20221127005804 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+svg 1 1043 0 0
+Unknown 19 186790 0 0
+ttf 7 95515 0 0
+woff2 15 1124868 0 0
+js 199 2655535 0 0
+css 162 802863 0 0
+jpg 53 8119275 0 0
+png 77 29928825 0 0
+html 15 122767 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 0 1 24
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+macosx10 2 2
+macosx8 1 1
+macosx15 192 24
+win10 229 20
+ios_iphone 72 7
+win7 51 1
+linux 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 9
+firefox59.0 2 2
+safari 72 7
+firefox106.0 70 4
+chrome95.0.4638.54 1 1
+msie9.0 51 1
+chrome107.0.0.0 348 37
+chrome105.0.0.0 1 1
+chrome26.0.1410.65 1 1
+firefox107.0 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 25 51
+From1 0 0
+From2 0 0
+From3 0 0
+From4 31 497
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+500 14 4044663
+419 1 2277
+302 1 225
+404 34 77350
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 17
+/assets/img/small-logos/logo-jira.svg 1 http://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/assets/img/small-logos/logo-spotify.svg 1 http://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/site/assets/vendors/timepicker/timepicker.js 1 -
+/site/assets/vendors/wnumb/wnumb.min.js 1 -
+/assets/img/team-3.jpg 1 http://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/site/assets/images/backgrounds/site-footer-bg.jpg 14 http://lionsclubsdistrict325jnepal.org.np/
+/assets/img/team-1.jpg 1 http://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/site/assets/vendors/circletype/jquery.circletype.js 1 -
+/sitemap.xml 2 -
+/assets/img/small-logos/logo-xd.svg 1 http://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/site/assets/vendors/circletype/jquery.lettering.min.js 1 -
+/assets/img/team-2.jpg 2 http://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/sitemap.xml.gz 2 -
+/assets/img/team-4.jpg 1 http://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/assets/img/small-logos/logo-invision.svg 1 http://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/assets/img/small-logos/logo-atlassian.svg 2 http://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/assets/img/small-logos/logo-slack.svg 1 http://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 29
+150.107.107.7 10 75 3702407 20221128074430
+150.107.107.22 8 86 6708814 20221110100220
+110.44.115.142 8 74 6536357 20221116093702
+150.107.107.13 6 43 6334282 20221115090911
+150.107.107.6 5 70 6372346 20221109100812
+110.34.13.219 4 70 6416826 20221115094825
+66.220.149.15 2 22 1745639 20221127005824
+199.244.88.228 1 1 8244 20221112093318
+23.100.232.233 1 27 159580 20221128162704
+66.220.149.8 1 23 2098221 20221127005823
+66.220.149.117 1 1 8079 20221127005815
+34.222.202.220 1 1 8079 20221124131429
+150.107.107.2 1 1 13228 20221112072812
+150.107.107.5 1 1 13228 20221111042846
+45.123.223.143 1 1 13227 20221109142157
+64.246.161.190 1 1 8235 20221105163236
+64.246.165.50 1 1 8072 20221126095250
+45.123.223.237 1 1 13227 20221114172629
+3.239.158.141 1 1 6681 20221115162706
+45.123.223.187 1 1 13228 20221115184500
+40.77.167.12 0 4 126068 
+40.77.167.6 0 3 19761 
+207.46.13.137 0 4 71552 
+157.55.39.116 0 2 6794 
+207.46.13.159 0 1 5256 
+207.46.13.108 0 1 30963 
+157.55.39.45 0 4 24332 
+66.220.149.1 0 23 2507015 
+157.55.39.197 0 5 57740 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 17
+20221101 0 9 96362 0
+20221102 0 12 208347 0
+20221105 1 1 8235 1
+20221108 0 1 3252 0
+20221109 6 73 6420078 2
+20221110 8 86 6708814 1
+20221111 1 1 13228 1
+20221112 2 2 21472 2
+20221114 1 1 13227 1
+20221115 12 115 12771017 5
+20221116 8 74 6536357 1
+20221117 2 2 26439 1
+20221121 7 72 3662741 1
+20221124 1 1 8079 1
+20221126 1 1 8072 1
+20221127 4 69 6358978 3
+20221128 2 28 172807 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+2mn-5mn 1
+30mn-1h 1
+0s-30s 18
+15mn-30mn 1
+30s-2mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 15
+/ 15 122767 12 7
+/cpanel 10 132258 8 9
+/site/assets/vendors/fontawesome/webfonts/fa-solid-900.woff2 7 562100 1 0
+/site/assets/vendors/oxpins-icons/fonts/icomoond671.ttf 7 95515 0 1
+/site/assets/vendors/fontawesome/webfonts/fa-brands-400.woff2 7 549220 1 2
+/department/teams/district-governors-team 1 4561 0 0
+/site/assets/vendors/fontawesome/webfonts/fa-regular-400.woff2 1 13548 0 0
+/admin/district-team/manage 1 4961 0 1
+/login 1 5459 0 1
+/admin/club/manage 1 13315 0 0
+/site/assets/images/favicons/site.webmanifest 1 263 0 0
+/admin/login 1 5265 0 0
+/clubs 1 8256 0 1
+/contact 1 5089 1 1
+/admin/dashboard 1 7363 0 0
+END_SIDER

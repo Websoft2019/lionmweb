@@ -1,0 +1,621 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202212 will be lost/reset.
+# Last config file used to build this data file was /home6/lionsclu/tmp/awstats/ssl/awstats.lionsclubsdistrict325jnepal.org.np.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2036                
+POS_TIME 2709                
+POS_VISITOR 9890                
+POS_DAY 12515               
+POS_DOMAIN 3515                
+POS_LOGIN 3830                
+POS_ROBOT 3985                
+POS_WORMS 4320                
+POS_EMAILSENDER 4451                
+POS_EMAILRECEIVER 4594                
+POS_SESSION 13249               
+POS_SIDER 13457               
+POS_FILETYPES 4729                
+POS_DOWNLOADS 4980                
+POS_OS 5028                
+POS_BROWSER 5273                
+POS_SCREENSIZE 5611                
+POS_UNKNOWNREFERER 5685                
+POS_UNKNOWNREFERERBROWSER 5991                
+POS_ORIGIN 6099                
+POS_SEREFERRALS 6239                
+POS_PAGEREFS 6402                
+POS_SEARCHWORDS 6709                
+POS_KEYWORDS 6861                
+POS_MISC 2372                
+POS_ERRORS 6920                
+POS_CLUSTER 3686                
+POS_SIDER_404 7106                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230101072558 1 0 12481904137674
+FirstTime 20221201045239
+LastTime 20221230071225
+LastUpdate 20230101121438 1 0 0 0 0
+TotalVisits 101                 
+TotalUnique 60                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 63                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 10 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 1 1 168
+3 15 34 1796485 22 28 268786
+4 109 416 13912660 61 141 171238
+5 449 1068 50182200 314 474 902854
+6 736 920 19054194 423 516 1089101
+7 512 1258 55363527 333 509 1006499
+8 531 834 30812957 273 406 1187944
+9 252 336 14699727 186 266 484770
+10 310 674 22067492 212 318 529362
+11 671 808 3255364 190 230 700740
+12 215 266 673163 108 139 1139532
+13 22 22 75807 14 14 2079134
+14 69 69 155117 39 45 1601969
+15 96 105 5341891 23 39 2067336
+16 32 55 6646234 12 45 80442
+17 53 181 7885655 20 62 5740835
+18 62 75 5143655 50 90 939318
+19 8 8 392364 3 6 6347
+20 52 90 736745 77 129 246021
+21 27 27 397016 80 103 199571
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+in 2718 4591 164270637
+np 1468 2602 71321165
+fr 20 37 2003254
+us 9 10 607703
+eu 5 5 377356
+be 1 1 12138
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+facebookexternalhit/ 22 3613051 20221227094420 0
+Go\-http\-client/ 10 107531 20221214082404 0
+no_user_agent 3 100425 20221228030500 0
+CFNetwork 2 222749 20221227112540 0
+survey 2 134252 20221215035531 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+woff2 98 7384018 0 0
+jpg 259 36138309 0 0
+html 98 2061207 0 0
+css 1001 5659904 0 0
+png 512 149884746 0 0
+Unknown 3989 21500922 0 0
+js 1227 15447161 0 0
+ttf 36 489960 0 0
+svg 26 26026 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+Unknown 4 3
+macosx13 4 4
+win10 3996 2200
+linux 190 24
+android 136 9
+macosx12 3 3
+linuxubuntu 38 21
+android10 1 0
+ios_iphone 58 6
+win7 353 273
+macosx15 2461 1676
+androidnougat 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 14
+chrome87.0.4280.101 1 0
+chrome64.0.3282.186 4 4
+chrome108.0.0.0 3862 2053
+safari15.6.1 58 6
+firefox83.0 1 1
+firefox107.0 614 372
+firefox52.0 1 1
+chrome108.0.5359.128 67 4
+chrome59.0.3071.125 2 2
+chrome101.0.4951.61 1 0
+Unknown 1 0
+chrome107.0.0.0 2590 1751
+mozilla 3 3
+firefox58.0 41 24
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(compatible;_Domains_Project/1.3.7;__https://domainsproject.org) 20221214075539
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20221207121859
+cortex/1.0 20221225170844
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+cortex/1.0 20221225170844
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 371 391
+From1 1 1
+From2 5 5
+From3 5 5
+From4 3839 6844
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 5 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+https://www.ssavr.com 2 2
+http://cpanel.lionsclubsdistrict325jnepal.org.np 1 1
+http://m.facebook.com 1 1
+http://webmail.lionsclubsdistrict325jnepal.org.np 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+419 4 7964
+301 13 2184
+302 1896 378455
+405 2 475340
+404 1426 2840875
+500 139 12535216
+401 13 522
+403 19 23351
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 28
+/assets/images/shapes/contact-three-shape.png 7 https://lionsclubsdistrict325jnepal.org.np/contact
+/uploads/members/780cb000697e7c30d7ad8048c8168211785a855e.jpg 1 https://lionsclubsdistrict325jnepal.org.np/admin/district-deparment/member/manage/50
+/program/assets/images/shapes/sidebar-shape-1.png 14 https://lionsclubsdistrict325jnepal.org.np/program/child-and-women-support-programme
+/assets/img/small-logos/logo-atlassian.svg 60 https://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/assets/img/small-logos/logo-spotify.svg 60 https://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/assets/img/team-2.jpg 62 https://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/site/assets/vendors/swiper/swiper.min.js.map 33 -
+/admin/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map 52 -
+/site/assets/vendors/bootstrap/css/bootstrap.min.css.map 34 -
+/site/assets/vendors/jarallax/jarallax.min.js.map 33 -
+/assets/img/team-1.jpg 63 https://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/assets/img/small-logos/logo-xd.svg 60 https://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/site/assets/vendors/vegas/vegas.min.css.map 33 -
+/api/club 1 -
+/site/assets/vendors/vegas/vegas.min.js.map 33 -
+/site/assets/vendors/bootstrap/js/bootstrap.bundle.min.js.map 33 -
+/club/registration/assets/images/backgrounds/page-header-bg.jpg 16 https://lionsclubsdistrict325jnepal.org.np/club/registration/list
+/assets/images/backgrounds/page-header-bg.jpg 1 https://lionsclubsdistrict325jnepal.org.np/aboutus
+/program/assets/images/backgrounds/page-header-bg.jpg 14 https://lionsclubsdistrict325jnepal.org.np/program/child-and-women-support-programme
+/assets/img/team-3.jpg 62 https://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/club/assets/images/backgrounds/page-header-bg.jpg 13 https://lionsclubsdistrict325jnepal.org.np/club/profile
+/site/assets/images/backgrounds/site-footer-bg.jpg 414 https://lionsclubsdistrict325jnepal.org.np/admin/login
+/assets/img/small-logos/logo-slack.svg 60 https://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/assets/img/small-logos/logo-invision.svg 60 https://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/admin/assets/css/dashboard-free.css.map 52 -
+/assets/img/team-4.jpg 62 https://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+/site/assets/vendors/bootstrap-select/js/bootstrap-select.min.js.map 33 -
+/assets/img/small-logos/logo-jira.svg 60 https://lionsclubsdistrict325jnepal.org.np/admin/dashboard
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 63
+150.107.107.5 1148 1456 34463979 20221226081222
+150.107.107.4 445 806 21759432 20221208124456
+110.44.120.62 439 515 5740897 20221207110421
+45.123.223.228 413 566 20204025 20221210212715
+150.107.107.6 352 680 25935934 20221229052946
+202.51.76.210 307 307 2440272 20221204080046
+110.44.127.175 265 392 5534424 20221205081449
+150.107.107.34 225 360 12337466 20221225172837
+110.44.115.178 82 95 1190847 20221205102551
+110.44.115.155 60 124 1961698 20221229071215
+110.44.120.4 53 116 2138342 20221206073142
+110.44.115.233 51 176 3839019 20221211083847
+103.10.28.153 49 75 1450920 20221201104713
+103.10.31.56 34 97 1976213 20221213112124
+103.10.31.36 31 107 2719353 20221201100352
+202.51.76.71 26 26 201194 20221225063411
+150.107.107.52 25 38 731204 20221201090032
+150.107.107.2 22 122 8359960 20221227094820
+150.107.107.10 18 87 6581266 20221207091143
+150.107.107.14 15 67 1709953 20221228080453
+110.44.115.229 14 76 1841369 20221209072120
+27.34.108.76 11 11 24193 20221210134128
+150.107.107.8 10 27 6166203 20221213064611
+150.107.107.7 10 78 6572566 20221212084408
+43.245.86.20 9 73 1792780 20221222102541
+93.119.227.91 5 5 377356 20221214083110
+51.255.62.14 1 2 292247 20221217033736
+188.165.87.105 1 1 37337 20221215204210
+202.166.211.230 8 100 20704119 20221230071225
+68.183.130.239 1 1 0 20221214075523
+51.255.62.11 1 3 103612 20221217033736
+51.255.62.1 2 3 259178 20221217033736
+51.255.62.3 1 1 72457 20221217033736
+87.236.176.19 1 1 12138 20221207121859
+137.184.147.18 1 1 0 20221214075539
+51.255.62.2 0 2 29253 
+51.255.62.10 1 4 124068 20221215192731
+110.44.120.15 4 6 32849 20221214050222
+173.252.127.116 0 1 222749 
+150.107.107.36 6 58 1470820 20221227112552
+51.255.62.0 1 3 98755 20221215192732
+44.195.244.245 1 1 0 20221214091232
+51.255.62.4 2 3 113098 20221217033736
+51.255.62.8 1 1 263 20221217033806
+63.33.66.24 1 1 7598 20221214103129
+51.254.49.97 2 2 74686 20221215212558
+45.123.223.211 6 6 31059 20221208142357
+120.89.105.37 0 1 222749 
+69.4.87.74 5 5 377356 20221215161954
+150.107.107.30 6 70 1770064 20221216074936
+182.93.90.139 5 7 484235 20221207032939
+103.94.252.95 4 67 3430492 20221225170858
+51.255.62.5 1 2 73494 20221217033736
+51.255.62.15 1 2 110660 20221215192732
+51.255.62.6 1 2 76509 20221217033736
+120.89.97.5 8 122 7787793 20221222071028
+120.89.97.71 8 108 2901227 20221222080319
+150.107.107.1 9 76 6567318 20221214072942
+120.89.97.69 4 68 6336672 20221225053355
+51.254.49.105 1 1 100425 20221215212621
+51.255.62.7 2 4 336012 20221217033736
+150.107.107.12 4 27 6178896 20221224055226
+51.254.49.111 1 1 101200 20221215212558
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 26
+20221201 325 520 14712619 5
+20221202 279 380 4606347 3
+20221204 467 571 11324849 6
+20221205 214 327 4614802 2
+20221206 66 141 2545798 3
+20221207 468 615 12842866 6
+20221208 428 762 16466510 5
+20221209 29 93 2217006 4
+20221210 949 1152 22476717 6
+20221211 587 794 12637892 3
+20221212 10 78 6572566 2
+20221213 40 103 2022945 3
+20221214 22 91 6985121 7
+20221215 15 15 1068360 10
+20221216 6 70 1770064 1
+20221217 10 27 1312250 9
+20221220 0 1 222749 0
+20221222 84 422 27955461 5
+20221223 5 70 6340772 1
+20221224 4 27 6178896 1
+20221225 72 382 31757251 6
+20221226 25 72 10065030 4
+20221227 16 164 14413423 4
+20221228 15 67 1709953 1
+20221229 80 209 9431178 3
+20221230 5 93 6340828 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+2mn-5mn 4
+30mn-1h 13
+1h+ 20
+5mn-15mn 3
+15mn-30mn 2
+0s-30s 52
+30s-2mn 7
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 217
+/admin/autocomplete/club/list 646 412008 0 0
+/admin/ajax/search/membership 328 56582 0 0
+/admin/district-deparment/manage 181 976598 1 1
+/admin/club/manage 137 1652891 1 5
+/admin/autocomplete/zone/list 122 11771 0 0
+/region-zone 122 625092 3 6
+/ 95 2058492 49 24
+/admin/district-deparment/member/manage/42 80 464289 1 4
+/admin/dashboard 61 352117 5 1
+/site/assets/vendors/fontawesome/webfonts/fa-brands-400.woff2 46 3608930 0 3
+/site/assets/vendors/fontawesome/webfonts/fa-solid-900.woff2 46 3693800 0 3
+/admin/club/pokhara-gandaki 40 323391 0 1
+/admin/club/pokhara-samarpan 40 325873 0 0
+/admin/club/kathmandu-budhi-gandaki 39 348229 0 0
+/admin/login 37 179601 18 0
+/admin/club/kathmandu-upakar 36 288360 0 1
+/admin/club/kathmandu-milan 36 291545 0 1
+/site/assets/vendors/oxpins-icons/fonts/icomoond671.ttf 36 489960 0 2
+/admin/club/pokhara-seti-gandaki 34 273639 0 0
+/admin/club/pokhara-chautari 34 274873 0 0
+/admin/district-deparment/member/manage/47 34 207033 0 0
+/admin/club/kathmandu-makhamali 33 263144 0 0
+/admin/club/pokhara-srijana-chautari 32 256167 0 0
+/admin/club/kathmandu-nagarjun 32 258731 0 0
+/site/assets/images/favicons/site.webmanifest 30 7890 1 3
+/admin/district-deparment/member/manage/7 5 27889 0 0
+/admin/club/pokhara-vision-city 19 146020 0 0
+/admin/district-deparment/member/manage/59 6 37328 0 0
+/department/district-co-ordinator 2 77165 1 1
+/department/teams/governor-team 8 32975 0 1
+/admin/district-deparment/member/manage/9 5 27811 0 0
+/admin/district-deparment/member/manage/56 6 37323 0 0
+/admin/district-deparment/member/manage/30 6 35881 0 0
+/admin/club/pokhara-unnati-chautari 29 228522 0 0
+/admin/member/1941 2 12938 0 0
+/admin/district-deparment/member/manage/37 7 42158 0 0
+/admin/member/2099 2 13008 0 0
+/admin/club/kathmandu-durbar 17 130623 0 0
+/donor/mjf 2 73737 1 1
+/admin/registration/manage 2 7725 0 0
+/contact 5 25503 1 1
+/admin/member/131 1 6400 0 0
+/admin/governorteam/manage 1 4541 0 0
+/admin/district-deparment/member/manage/22 6 33708 0 0
+/admin/district-deparment/member/manage/26 6 35909 0 0
+/department/constitution-by-laws 1 4705 0 0
+/department/lions-intl-coordinator 1 4680 0 0
+/admin/club/add 9 43114 0 1
+/admin/donor/manage 4 19077 0 0
+/admin/district-deparment/member/manage/33 7 42309 0 0
+/admin/club/kathmandu-success 18 136281 0 0
+/donor/pmjf 5 87990 1 1
+/admin/club/kathmandu-yug-darpan 17 129819 0 0
+/site/assets/vendors/fontawesome/webfonts/fa-regular-400.woff2 6 81288 0 2
+/department/vision 1 4693 0 0
+/admin/member/1559 2 12998 0 0
+/admin/club/pokhara-green 21 162199 0 0
+/admin/club/pokhara-royal-mardi-trek 19 144483 0 0
+/admin/district-deparment/member/manage/5 6 33611 0 0
+/admin/club/kathmandu-jamacho 15 114389 0 1
+/admin/regionkozone/add 3 0 0 0
+/admin/club/nuwakot-trishuli 24 186774 0 1
+/department/it 1 4729 0 0
+/admin/district-deparment/member/manage/28 5 29806 0 0
+/admin/district-deparment/member/manage/4 5 27817 0 0
+/department/lead-with-empathy 2 75955 1 1
+/admin/club/kathmandu-elite-lazimpat-chautari 21 160521 0 1
+/admin/district-deparment/member/manage/25 7 42136 0 0
+/program/child-and-women-support-programme 9 42523 1 4
+/unprotected/loader.html 3 2715 0 2
+/admin/club/pokhara-lekhnath 17 131063 0 0
+/admin/district-deparment/member/manage/14 4 22081 0 0
+/department/teams/reporting 1 4333 0 0
+/admin/club/pokhara-mount-peak 19 146318 0 0
+/admin/member/2339 2 13055 0 0
+/admin/club/nuwakot-upakar 27 208862 0 0
+/department/cooperate-partnership 1 4346 0 0
+/admin/club/pokhara-north 15 114824 0 0
+/admin/club/pokhara-sarangkot 13 98974 0 0
+/admin/club/kathmandu-nagarjun-hill 25 190778 0 1
+/admin/club/pokhara-simal-chautari 18 139102 0 0
+/admin/club/kathmandu-sadabahar 14 106967 0 0
+/admin/club/baglung-galkot-city 3 22619 0 0
+/admin/club/pokhara-empathy 12 89753 0 0
+/admin/club/pokhara-stock 28 221520 0 0
+/admin/club/pokhara-ujjyalo-chautari 14 106045 0 0
+/admin/member/2274 1 6412 0 0
+/admin/club/pokhara-seti-dovan 19 145730 0 0
+/department/teams/lead-with-empathy 4 17038 0 1
+/admin/member/855 1 6489 0 0
+/admin/club/kathmandu-peaceful 21 158530 0 1
+/department/teams/peace-poster 2 9314 0 0
+/admin/club/kathmandu-dynamic-star 15 114795 0 0
+/admin/district-deparment/member/manage/2 12 66548 0 0
+/admin/district-deparment/member/manage/34 7 42164 0 0
+/aboutus 2 77617 1 1
+/admin/club/pokhara-peace-valley 11 83321 0 0
+/admin/district-deparment/member/manage/1 12 68058 0 0
+/admin/district-deparment/member/manage/53 4 23932 0 0
+/admin/club/kathmandu-nirwan 10 75166 0 0
+/admin/club/baglung-jaimini 1 8096 0 0
+/admin/district-deparment/member/manage/8 6 33372 0 0
+/admin/club/kathmandu-sahayatri 14 106619 0 0
+/admin/district-deparment/member/manage/38 7 42214 0 0
+/admin/district-deparment/member/manage/31 6 36070 0 0
+/admin/district-deparment/member/manage/46 12 61767 1 0
+/admin/club/kathmandu-t-shimbhunath 12 87936 0 0
+/admin/district-deparment/member/manage/6 9 51106 0 0
+/admin/club/pokhara-fewa-begnash-chautari 18 138699 0 0
+/admin/club/pokhara-seti-aayam 18 137550 0 0
+/admin/district-deparment/member/manage/3 6 33891 0 0
+/admin/district-deparment/member/manage/55 7 43379 0 0
+/admin/district-deparment/member/manage/51 4 23803 0 0
+/admin/district-deparment/member/manage/19 6 33533 0 0
+/department/teams/district-co-ordinator 1 3803 0 0
+/club/members/add 1 11608 0 0
+/admin/club/pokhara-sheetal-chautari 22 165495 0 0
+/department/disaster-emergency-relief 1 4712 0 0
+/admin/district-deparment/member/manage/50 10 60336 0 0
+/admin/club/kathmandu-mount-dhaulagiri 18 138030 0 0
+/admin/district-deparment/member/manage/12 7 39445 0 0
+/admin/district-deparment/member/manage/60 6 37079 0 0
+/admin/club/pokhara-united-chautari 25 196870 0 0
+/admin/club/pokhara-annapurna 4 36014 0 0
+/admin/club/pokhara-darshan 28 219999 0 0
+/admin/district-deparment/member/manage/48 2 11018 0 0
+/admin/club/pokhara-sahayatri 19 146394 0 0
+/admin/district-deparment/member/manage/36 6 36095 0 0
+/admin/club/kathmandu-dreamland 19 147064 0 0
+/admin/district-deparment/member/manage/61 4 24149 0 0
+/admin/club/kathmandu-shreekrishna-pranami 6 44330 0 0
+/department/teams/cancer-awareness 2 9248 0 0
+/admin/club/kathmandu-nagarjun-youth 17 129904 0 0
+/admin/district-deparment/member/manage/27 7 42157 0 0
+/admin/district-deparment/member/manage/58 4 24426 0 0
+/admin/district-deparment/member/manage/57 7 43173 0 0
+/admin/district-deparment/member/manage/13 8 45490 0 0
+/admin/district-deparment/member/manage/10 6 33585 0 0
+/admin/club/pokhara-newroad-chautari 23 180867 0 0
+/admin/member/2316 2 12998 0 0
+/department/governor-team 5 91249 1 2
+/login 25 132913 8 3
+/department/teams/it 2 9355 0 0
+/admin/club/pokhara-seti-ganga 21 161023 0 0
+/admin/club/pokhara-sundar-chautari 23 174025 0 0
+/department/event-management 1 4685 0 0
+/club/profile 8 30562 1 1
+/department/teams/blood-donation 2 9304 0 0
+/admin/club/pokhara-sagun 19 145962 0 0
+/admin/district-deparment/member/manage/41 5 29794 0 0
+/admin/club/pokhara-pushpanjali 22 170982 0 0
+/admin/district-deparment/member/manage/35 7 42303 0 0
+/admin/club/kathmandu-taekwondo-nepal 16 122576 0 0
+/admin/club/pokhara-mardi-himal 24 186672 0 0
+/admin/district-deparment/member/manage/20 5 27836 0 0
+/program/leadership-development-programs 1 4292 0 1
+/admin/member/1801 1 6508 0 0
+/club/dashboard 19 63199 1 2
+/admin/club/kathmandu-oasis 11 83005 0 0
+/admin/district-team/manage 7 28254 0 0
+/club/manage/members 17 78600 0 0
+/admin/club/kathmandu-healthcare-professionals 18 137307 0 1
+/admin/district-team/add 1 4504 0 0
+/club/registration/list 16 57611 0 0
+/department/government-co-ordinator 2 9446 0 0
+/department/padhaun-abhiyan 1 4636 0 0
+/admin/member/1808 2 12952 0 0
+/admin/club/pokhara-hemja 20 154915 0 1
+/admin/club/pokhara-samipya 21 161799 0 0
+/admin/club/pokhara-seto-gurans 13 98269 0 0
+/admin/club/pokhara-panchase-chautari 19 147084 0 0
+/admin/club/kathmandu-sahara 15 111066 0 0
+/admin/member/403 3 19281 0 2
+/admin/district-deparment/member/manage/16 6 33463 0 0
+/admin/member/2453 2 12985 0 0
+/admin/club/kathmandu-young-star 27 212025 1 2
+/admin/member/1085 2 13020 0 0
+/admin/district-deparment/member/manage/29 6 35859 0 0
+/admin/district-deparment/member/manage/32 6 36004 0 0
+/program/good-health-and-well-being 2 8994 0 0
+/admin/club/pokhara-peace-society 27 214099 0 0
+/admin/member/16 2 13145 0 0
+/admin/club/kathmandu-family 14 106929 0 0
+/admin/district-deparment/member/manage/64 1 5658 0 0
+/admin/club/pokhara-laligurans 28 221706 0 0
+/admin/district-deparment/member/manage/11 6 33554 0 0
+/admin/club/pokhara-gandaki-youth 21 161381 0 0
+/admin/district-deparment/member/manage/24 16 95416 0 0
+/department/lions-quest 2 75904 0 1
+/admin/club/kathmandu-marigold 17 130581 0 0
+/cpanel 6 77962 0 1
+/admin/club/kathmandu-circle 23 172201 0 1
+/admin/district-deparment/member/manage/17 7 39418 0 0
+/admin/club/pokhara-hamro-fulbari 11 82794 0 0
+/admin/club/pokhara-green-chautari 17 130170 0 0
+/admin/member/1679 2 12986 0 0
+/admin/club/pokhara-fewa-fulbari 17 129433 0 0
+/admin/club/pokhara-visit 11 82791 0 0
+/admin/member/2539 1 6483 0 0
+/admin/district-deparment/member/manage/15 5 27839 0 0
+/clubs 16 298450 1 4
+/admin/district-deparment/member/manage/23 6 35891 0 0
+/admin/member/1798 2 12999 0 0
+/admin/club/pokhara-brindaban 2 16142 0 0
+/department/blood-donation 1 4672 0 0
+/department/teams/evaluation 1 4324 0 0
+/admin/member/1251 2 13049 0 0
+/admin/district-deparment/member/manage/21 7 39352 0 0
+/admin/club/pokhara-lekhnath-chautari 17 129602 1 1
+/admin/registration/add 1 4339 0 0
+/admin/club/pokhara-tourism-city 28 220585 0 0
+/admin/member/2288 2 12922 0 0
+/admin/club/kathmandu-mount-sagarmatha 14 106860 0 0
+/admin/district-deparment/member/manage/18 7 39369 0 0
+/admin/club/kathmandu-manokamana 10 74967 0 0
+/admin/club/gandaki-aandikhola 22 164478 0 0
+/admin/member/832 5 32477 0 1
+END_SIDER

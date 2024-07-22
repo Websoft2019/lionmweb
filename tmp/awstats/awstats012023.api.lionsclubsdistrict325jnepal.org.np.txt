@@ -1,0 +1,483 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202301 will be lost/reset.
+# Last config file used to build this data file was /home6/lionsclu/tmp/awstats/awstats.api.lionsclubsdistrict325jnepal.org.np.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2036                
+POS_TIME 2718                
+POS_VISITOR 7124                
+POS_DAY 8851                
+POS_DOMAIN 3418                
+POS_LOGIN 3699                
+POS_ROBOT 3854                
+POS_WORMS 4061                
+POS_EMAILSENDER 4192                
+POS_EMAILRECEIVER 4335                
+POS_SESSION 9555                
+POS_SIDER 9762                
+POS_FILETYPES 4470                
+POS_DOWNLOADS 4577                
+POS_OS 4625                
+POS_BROWSER 4747                
+POS_SCREENSIZE 4886                
+POS_UNKNOWNREFERER 4960                
+POS_UNKNOWNREFERERBROWSER 5294                
+POS_ORIGIN 5522                
+POS_SEREFERRALS 5660                
+POS_PAGEREFS 5804                
+POS_SEARCHWORDS 5952                
+POS_KEYWORDS 6104                
+POS_MISC 2381                
+POS_ERRORS 6163                
+POS_CLUSTER 3555                
+POS_SIDER_404 6324                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230201052317 113 12529 6036064595329
+FirstTime 20230102054039
+LastTime 20230131232023
+LastUpdate 20230201121736 113 0 112 0 0
+TotalVisits 63                  
+TotalUnique 40                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 40                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 12 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 1 1 22 0 2 2272
+4 408 408 377737 1 2 293788
+5 666 666 411729 60 66 4250339
+6 1939 1939 1458807 101 112 3307276
+7 2194 2194 1524795 133 139 2524787
+8 1568 1568 1234819 47 55 837565
+9 481 481 339530 20 26 573461
+10 973 973 753436 48 55 1427166
+11 31 31 29844 5 7 14504
+12 2 2 3061 0 0 0
+13 0 0 0 0 0 0
+14 19 19 988 0 0 0
+15 66 66 40154 0 1 2272
+16 179 179 122552 4 7 13632
+17 338 338 147637 0 0 0
+18 733 733 271601 22 22 50182
+19 1074 1074 430762 6 6 13686
+20 121 121 85871 0 0 0
+21 1 1 5540 0 0 0
+22 0 0 0 0 0 0
+23 1 1 5540 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+in 5650 5650 3366244
+np 5118 5118 3835126
+us 23 23 20895
+be 4 4 22160
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+unknown 2 48 20230126061636 2
+facebookexternalhit/ 1 2278 20230126053405 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+html 5 27700 0 0
+Unknown 10790 7216725 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 4
+Unknown 10767 10767
+ios_iphone 1 1
+linux 1 1
+win10 26 26
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 5
+mozilla 4 4
+safari16.1 1 1
+chrome108.0.0.0 18 18
+chrome109.0.0.0 9 9
+Unknown 10763 10763
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20230131232023
+Dart/2.18_(dart:io) 20230131162913
+WhatsApp/2.22.24.78_A 20230103065208
+PostmanRuntime/7.30.0 20230130064900
+PostmanRuntime/7.30.1 20230131104030
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+PostmanRuntime/7.30.1 20230131104030
+PostmanRuntime/7.30.0 20230130064900
+Dart/2.18_(dart:io) 20230131162913
+WhatsApp/2.22.24.78_A 20230103065208
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 10787 10787
+From1 0 0
+From2 0 0
+From3 0 0
+From4 8 8
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+500 21 4355169
+301 16 11312
+405 32 8492625
+400 51 4121
+429 102 228100
+404 263 217277
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 19
+/api/department/regiondetails 1 -
+/site/upload 1 -
+/sites/upload 1 -
+/api/department/zone/member 1 -
+/sites 1 -
+/api/department/region_details 1 -
+/api/forgot-password 94 -
+/api/api/user/refresh 1 -
+/api/department_details 24 -
+/api/department_detail 3 -
+/api/reset-password 9 -
+/api/member 1 -
+/department/region 4 -
+/site 1 -
+/api/login 76 -
+/sites/uploads 1 -
+/api/clubs 2 -
+/api/api/club 2 -
+/images/icons/gear.png 39 http://api.lionsclubsdistrict325jnepal.org.np/api/department/region
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 40
+150.107.107.5 2467 2467 1083933 20230131163044
+202.51.87.3 1795 1795 1148038 20230131110119
+150.107.107.8 1125 1125 790531 20230129110244
+150.107.107.4 976 976 551789 20230130105052
+150.107.107.7 596 596 610520 20230110105848
+202.51.87.140 577 577 462318 20230127111332
+202.51.87.252 550 550 519632 20230111101031
+202.51.87.247 438 438 385115 20230112073832
+202.51.87.159 267 267 176383 20230118100330
+202.51.87.60 244 244 176282 20230117102338
+202.51.87.126 238 238 81620 20230106094557
+202.51.87.173 236 236 237790 20230126110206
+150.107.107.10 234 234 191648 20230102110704
+202.51.87.223 175 175 93565 20230108105619
+150.107.107.95 151 151 65664 20230120081603
+202.51.87.11 129 129 97961 20230109093413
+202.51.87.128 127 127 116051 20230119091653
+150.107.107.2 84 84 59936 20230129155523
+202.51.87.103 81 81 150560 20230105100813
+202.51.87.157 71 71 30085 20230104063858
+202.51.87.191 50 50 63746 20230113075226
+202.51.87.200 47 47 24343 20230104094951
+27.34.108.62 28 28 27532 20230129093005
+27.34.48.211 23 23 19786 20230121060255
+27.34.48.197 17 17 4945 20230110100236
+87.236.176.214 1 1 5540 20230131232023
+103.94.253.54 3 3 1437 20230107095449
+110.44.125.153 4 4 3766 20230125070014
+150.107.107.53 11 11 5014 20230103065724
+74.125.212.52 7 7 8283 20230125063511
+87.236.176.106 1 1 5540 20230131062336
+87.236.176.253 1 1 5540 20230126214407
+49.244.28.123 2 2 3061 20230131120537
+202.51.87.72 8 8 7288 20230122094642
+182.93.90.139 1 1 22 20230130035825
+87.236.176.82 1 1 5540 20230126073307
+150.107.107.3 3 3 5772 20230125100753
+74.125.212.54 10 10 11095 20230125063509
+202.51.87.194 10 10 5237 20230112094305
+74.125.212.50 6 6 1517 20230125063456
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 26
+20230102 234 234 191648 2
+20230103 221 221 242935 3
+20230104 118 118 54428 3
+20230105 81 81 150560 2
+20230106 238 238 81620 1
+20230107 7 7 4682 2
+20230108 176 176 95818 3
+20230109 129 129 97961 2
+20230110 403 403 377544 2
+20230111 550 550 519632 2
+20230112 448 448 390352 3
+20230113 52 52 63978 2
+20230116 11 11 10727 1
+20230117 244 244 176282 2
+20230118 267 267 176383 2
+20230119 127 127 116051 1
+20230120 151 151 65664 1
+20230121 7 7 3561 1
+20230122 8 8 7288 1
+20230123 33 33 57284 2
+20230125 84 84 79040 8
+20230126 238 238 248870 3
+20230127 577 577 462318 1
+20230129 1204 1204 820715 4
+20230130 3281 3281 1485393 3
+20230131 1906 1906 1263691 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30mn-1h 6
+2mn-5mn 6
+5mn-15mn 4
+1h+ 24
+15mn-30mn 6
+30s-2mn 5
+0s-30s 12
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 142
+/api/department 2347 1589480 7 5
+/api/notice 1037 406082 2 1
+/api/department_details/1 931 386758 2 9
+/api/donor 809 42068 1 1
+/api/department_details/1/member 628 410592 1 3
+/api/program 620 1524600 9 6
+/api/club 433 988708 16 5
+/api/department/region 403 324987 3 3
+/api/department/zone 326 309701 0 2
+/api/department_details/20/547 283 82074 0 0
+/api/department_details/1/855 235 75476 0 0
+/api/department_details/5/member 216 142560 0 0
+/api/department_details/1/1022 213 62996 0 0
+/api/department/zone/member 186 46176 0 1
+/api/department_details/20 180 72223 0 0
+/api/department_details/20/832 171 59842 0 0
+/api/forgot-password 169 19861 10 4
+/api/login 145 141212 4 4
+/api/department/region/member 116 18883 0 5
+/api/department_details/1/1117 87 28620 0 0
+/api/department_details/2/1022 76 22406 0 0
+/api/department_details/2 72 18472 0 0
+/api/department_details/1/1022/history 72 13032 0 0
+/api/donor/type 55 2800 1 1
+/api/department_details/5 51 11719 0 0
+/api/department_details/20/547/history 2 256 0 0
+/api/department_details/69 1 275 0 0
+/api/department_details/24 4 1205 0 0
+/api/department_details/13 10 3166 0 1
+/api/news-events/1 27 54864 0 0
+/api/department_details/3/2242 4 1180 0 0
+/api/department_details/18 11 3950 0 0
+/api/department_details/20/1432 3 726 0 0
+/api/department_details/30 6 1741 0 0
+/api/department_details/71 1 149 0 0
+/api/department_details/29/1977 4 1112 0 0
+/api/department_details/1/117 1 253 0 0
+/api/department_details/10 8 2653 0 1
+/api/department_details/8 9 2970 0 0
+/api/department_details/9 11 2997 0 0
+/api/department_details/7 27 6770 0 0
+/api/department_details/20/1478 5 1437 0 0
+/api/department_details/35 3 910 0 0
+/api/department_details/1/855/history 9 1287 0 0
+/ 5 27700 5 5
+/api/contact 7 413 1 0
+/api/department_details/2/1022/history 23 4163 0 0
+/api/department_details/18/858 1 279 0 0
+/api/department_details/23/1220 3 834 0 0
+/api/program/4 8 3984 0 0
+/api/department_details/20/271 4 1124 0 0
+/api/department_details/2/1493/history 4 604 0 0
+/api/department_details/82 2 352 0 0
+/api/department_details/6/851 4 1120 0 0
+/api/notice/4 1 393 0 0
+/api/department_details/1/1524 28 8213 0 0
+/api/department_details/63 3 66 0 0
+/api/reset-password 26 4987 0 1
+/api/department_details/1/2254/history 1 155 0 0
+/api/department_details/2/member 4 2384 0 0
+/api/department_details/20/832/history 8 940 0 0
+/api/department_details/2/1012 4 1196 0 0
+/api/notice/3 16 4336 0 0
+/api/department_details/20/1117 2 714 0 0
+/api/department_details/11/member 8 5152 0 0
+/api/department_details/12/1513 4 1108 0 0
+/api/department_details/2/435/history 1 139 0 0
+/api/department_details/1/1117/history 6 918 0 0
+/api/department_details/32 3 792 0 0
+/api/program/6 6 3342 0 0
+/api/department_details/38 3 936 0 0
+/api/department_details/2/2487/history 1 155 0 0
+/api/department_details/11 12 3614 0 0
+/api/department_details/70 1 254 0 0
+/api/department_details/23 6 1792 0 0
+/api/department_details/21 6 1848 0 0
+/api/department_details/400 1 6 0 0
+/api/department_details/2/435 18 5010 0 1
+/api/department_details/3 41 11242 0 0
+/api/department_details/23/670 3 900 0 0
+/api/department_details/30/1454 3 876 0 0
+/api/department_details/65 5 110 0 0
+/api/department_details/14 9 2425 0 0
+/api/department_details/10/828 3 780 0 0
+/api/department_details/20/1478/history 1 139 0 0
+/api/department_details/64 2 44 0 0
+/api/department_details/20/member 1 619 0 0
+/api/donor/2 3 66 0 0
+/api/department_details/4/440 4 1028 0 0
+/api/donor/1 22 484 1 1
+/api/department_details/4 22 6953 0 1
+/api/department_details/22 6 1601 0 0
+/api/department_details/68 11 4389 0 0
+/api/department_details/15 5 1376 0 0
+/api/department_details/6/1004 8 2176 0 0
+/api/department_details/16 5 1500 0 0
+/api/department_details/29 5 1473 0 0
+/api/program/7 2 1172 0 0
+/api/department_details/37 2 693 0 0
+/api/department_details/26 3 849 0 0
+/api/department_details/28/member 2 1040 0 0
+/api/department_details/28 5 1294 0 0
+/api/department_details/6/1320 12 3276 0 0
+/api/department_details/2/1493 15 4431 0 0
+/api/department_details/99 1 153 0 0
+/api/program/3 21 16947 0 0
+/api/program/2 45 36495 0 0
+/api/department_details/1/2 2 514 0 0
+/api/department_details/27 3 910 0 0
+/api/department_details/20/2027/history 2 266 0 0
+/api/department_details/1/829 22 6876 0 0
+/api/news-events 36 71247 0 1
+/api/department_details/1/1464 19 5751 0 0
+/api/department_details/72 1 144 0 0
+/api/department_details/23/670/history 1 147 0 0
+/api/department_details/3/314 4 1192 0 0
+/api/department_details/2/2487 7 2125 0 0
+/api/department_details/19 7 2395 0 0
+/api/department_details/12/member 1 650 0 0
+/api/department_details/25 4 1318 0 0
+/api/department_details/6 17 5159 0 0
+/api/department_details/30/member 1 608 0 0
+/api/department_details/30/1454/history 1 133 0 0
+/api/department_details/36 4 1050 0 0
+/api/department_details/33 3 961 0 0
+/api/program/5 8 3088 0 0
+/api/department_details/31 4 1113 0 1
+/api/notice/1 1 276 0 0
+/api/department_details/20/2027 10 2856 0 0
+/api/department_details/3/member 45 27045 0 0
+/api/department_details/17 7 2221 0 0
+/api/department_details/39 2 12 0 0
+/api/department_details/4/255 8 2376 0 0
+/api/department_details/12 12 3862 0 0
+/api/department_details/1/2254 31 9901 0 0
+/api/department_details/23/1220/history 1 141 0 0
+/api/department_details/34 4 1101 0 0
+/api/department_details/18/2002 15 4380 0 0
+/api/department_details/41 2 599 0 0
+/api/department_details/10/828/history 1 151 0 0
+/api/department_details/3/1361 4 1068 0 0
+/api/department_details/40 1 6 0 0
+END_SIDER

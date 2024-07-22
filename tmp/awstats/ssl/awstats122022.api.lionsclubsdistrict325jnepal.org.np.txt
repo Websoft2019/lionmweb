@@ -1,0 +1,295 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202212 will be lost/reset.
+# Last config file used to build this data file was /home6/lionsclu/tmp/awstats/ssl/awstats.api.lionsclubsdistrict325jnepal.org.np.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2040                
+POS_TIME 2713                
+POS_VISITOR 6656                
+POS_DAY 7133                
+POS_DOMAIN 3250                
+POS_LOGIN 3515                
+POS_ROBOT 3670                
+POS_WORMS 3802                
+POS_EMAILSENDER 3933                
+POS_EMAILRECEIVER 4076                
+POS_SESSION 7316                
+POS_SIDER 7521                
+POS_FILETYPES 4211                
+POS_DOWNLOADS 4325                
+POS_OS 4373                
+POS_BROWSER 4513                
+POS_SCREENSIZE 4702                
+POS_UNKNOWNREFERER 4776                
+POS_UNKNOWNREFERERBROWSER 5009                
+POS_ORIGIN 5237                
+POS_SEREFERRALS 5369                
+POS_PAGEREFS 5513                
+POS_SEARCHWORDS 5661                
+POS_KEYWORDS 5813                
+POS_MISC 2376                
+POS_ERRORS 5872                
+POS_CLUSTER 3371                
+POS_SIDER_404 5984                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230101091308 1 0 17673001532754
+FirstTime 20221225074532
+LastTime 20221230093623
+LastUpdate 20230101121438 1 0 0 0 0
+TotalVisits 18                  
+TotalUnique 10                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 11                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 12 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 10 11 4511 0 5 9960
+6 3 3 1776 0 0 0
+7 22 22 9557 10 18 210021
+8 7 7 4398 3 8 9960
+9 27 27 41467 3 14 17232
+10 7 7 1203 0 3 3984
+11 0 0 0 0 0 0
+12 0 0 0 0 0 0
+13 1 1 229 0 0 0
+14 0 0 0 0 1 1992
+15 0 0 0 0 0 0
+16 1 1 5009 0 0 0
+17 0 1 0 0 1 1992
+18 3 3 1665 0 0 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+in 53 54 25410
+np 19 20 6768
+us 8 8 32628
+ca 1 1 5009
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+Unknown 74 32628 0 0
+png 2 0 0 0
+html 7 37187 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+macosx9 2 2
+linuxubuntu 2 2
+win7 1 1
+win10 21 19
+linux 11 11
+Unknown 46 46
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 7
+chrome33.0.1750.152 2 2
+chrome60.0.3112.90 1 1
+chrome56.0.2924.87 1 1
+chrome108.0.0.0 29 27
+firefox83.0 2 2
+firefox107.0 2 2
+Unknown 46 46
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+WhatsApp/2.22.24.78_A 20221226090309
+Dart/2.18_(dart:io) 20221230093623
+PostmanRuntime/7.30.0 20221226132326
+PostmanRuntime/7.29.2 20221226090124
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+PostmanRuntime/7.29.2 20221226090124
+PostmanRuntime/7.30.0 20221226132326
+WhatsApp/2.22.24.78_A 20221226090309
+Dart/2.18_(dart:io) 20221230093623
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 81 81
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 2
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+500 2 184714
+301 1 707
+404 35 69720
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 11
+/api/departments_details 1 -
+/api/department/department 1 -
+/api/department/1 1 -
+/api/department_details 2 -
+/api/department/zones 1 -
+/api/department_detail/1 1 -
+/api/department_detail 1 -
+/api/department_details/1 3 -
+/api/departments_detail 1 -
+/api/zone 1 -
+/images/icons/gear.png 22 https://api.lionsclubsdistrict325jnepal.org.np/api/department_details/2
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 11
+150.107.107.5 31 31 13703 20221230093623
+150.107.107.6 16 17 10520 20221229095708
+202.166.211.230 16 16 5103 20221230071549
+34.254.53.125 6 6 32178 20221226095145
+27.34.48.11 3 3 1665 20221228185823
+150.107.107.14 3 3 508 20221228093936
+150.107.107.2 3 3 679 20221227095622
+66.102.7.183 1 1 221 20221226090208
+54.86.50.139 1 1 229 20221226132326
+198.50.163.55 1 1 5009 20221226162645
+27.34.48.179 0 1 0 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 6
+20221225 5 5 5098 1
+20221226 22 22 40198 7
+20221227 3 3 679 2
+20221228 6 6 2173 2
+20221229 11 12 5422 3
+20221230 34 35 16245 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+5mn-15mn 3
+0s-30s 7
+30s-2mn 2
+15mn-30mn 1
+30mn-1h 1
+2mn-5mn 1
+1h+ 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 12
+/api/department 33 19057 5 4
+/api/department_details/1 14 3350 3 3
+/api/department_details/2 11 2455 4 4
+/ 7 37187 2 2
+/api/club 4 5987 1 2
+/api/department/zone 4 744 2 2
+/api/department/region 3 472 1 0
+/api/department_details/41 1 186 0 1
+/api/department_details/420 1 6 0 0
+/api/department_details/100 1 6 0 0
+/api/department_details/42 1 119 0 0
+/api/department_details/12 1 246 0 0
+END_SIDER
