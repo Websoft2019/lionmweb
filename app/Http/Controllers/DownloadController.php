@@ -26,7 +26,7 @@ class DownloadController extends Controller
 
         $download = new Download();
         $download->name = $request->name;
-        $download->category = $request->category;
+        // $download->category = $request->category;
 
         $download->lion_year = env('lion_year');
 

@@ -11,6 +11,7 @@ use App\Http\Controllers\Adminauth\VerifyEmailController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DownloadController;
 use App\Http\Controllers\DistrictCalenderController;
+use App\Http\Controllers\DocumentController;
 
 Route::group(['middleware' => ['guest:admin'], 'prefix' => 'admin', 'as' => 'admin.'], function(){
 
@@ -178,5 +179,13 @@ Route::group(['middleware' => ['auth:admin'], 'prefix' => 'admin', 'as' => 'admi
         Route::get("edit/{id}", [DistrictCalenderController::class, 'edit'])->name('edit');
         Route::put("update/{id}", [DistrictCalenderController::class, 'update'])->name('update');
         Route::get("delete/{id}", [DistrictCalenderController::class, 'destroy'])->name('delete');
+    });
+
+    // Document
+    Route::prefix('document')->name('document.')->group(function() {
+        Route::get("index", [DocumentController::class, 'index'])->name('index');
+        Route::get("create", [DocumentController::class, 'create'])->name('create');
+        Route::post("store", [DocumentController::class, 'store'])->name('store');
+        Route::get("delete/{id}", [DocumentController::class, 'destroy'])->name('delete');
     });
 });
