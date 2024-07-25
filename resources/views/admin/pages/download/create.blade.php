@@ -75,7 +75,7 @@
                                                         class="input-group input-group-outline @if (old('file') != '') focused is-focused @endif">
                                                         <input type="file" name="file"
                                                             class="form-control @error('file') is-invalid @enderror"
-                                                            value="{{ old('file') }}" accept=".pdf" required>
+                                                            value="{{ old('file') }}" required>
                                                         @error('file')
                                                             <span class="invalid-feedback" role="alert">
                                                                 <strong>{{ $message }}</strong>
