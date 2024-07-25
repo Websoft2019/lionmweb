@@ -17,6 +17,7 @@ use App\Models\Member;
 use App\Models\Officer;
 use PDF;
 use App\Models\DCalendar;
+use App\Models\Download;
 
 class SiteController extends Controller
 {
@@ -219,5 +220,11 @@ class SiteController extends Controller
     }
     public function getTerms(){
         return view('site.terms');
+    }
+    public function getDownload()
+    {
+        $downloads = Download::latest()->paginate(10);
+
+        return view('site.download', compact('downloads'));
     }
 }

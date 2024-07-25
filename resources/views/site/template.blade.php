@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lions Clubs International - District 325 M, Nepal</title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('site/assets/images/favicons/apple-touch-icon.png') }}" />
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('site/assets/images/favicons/favicon-32x32.png') }}" />
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('site/assets/images/favicons/favicon-16x16.png') }}" />
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="{{ asset('site/assets/images/favicons/favicon-32x32.png') }}" />
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="{{ asset('site/assets/images/favicons/favicon-16x16.png') }}" />
     <link rel="manifest" href="{{ asset('site/assets/images/favicons/site.webmanifest') }}" />
     <meta name="description" content="Lions Clubs International - District 325 M, Nepal" />
 
@@ -65,18 +68,23 @@
             <nav class="main-menu">
                 <div class="main-menu__wrapper">
                     <div class="main-menu__wrapper-inner">
-                       
+
                         <div class="main-menu__right">
                             <div class="main-menu__right-top">
                                 <div class="main-menu__right-top-left">
                                     <div class="main-menu__volunteers">
-                                      
-                                            
-                                                <a href="{{ route('getHome') }}"><img src="{{ asset('site/assets/images/logo.png') }}" alt="" width="140"></a>
-                                            
-                                        
-                                        <img src="{{ asset('site/assets/images/logo-23-24.png') }}" alt="" width="150" style="margin-right:10px; position: relative;">
-                                        <h5 style="color: #1c4f9c; position: relative; padding-top: 17px; float:right; padding-top:37px"><strong>Lions Clubs International</strong> <br />
+
+
+                                        <a href="{{ route('getHome') }}"><img
+                                                src="{{ asset('site/assets/images/logo.png') }}" alt=""
+                                                width="140"></a>
+
+
+                                        <img src="{{ asset('site/assets/images/logo-23-24.png') }}" alt=""
+                                            width="150" style="margin-right:10px; position: relative;">
+                                        <h5
+                                            style="color: #1c4f9c; position: relative; padding-top: 17px; float:right; padding-top:37px">
+                                            <strong>Lions Clubs International</strong> <br />
                                             <span>District 325 M, Nepal</span>
                                         </h5>
                                     </div>
@@ -84,7 +92,7 @@
                                 <div class="main-menu__49-top-right">
                                     <div class="main-menu__right-top-address">
                                         <ul class="list-unstyled main-menu__right-top-address-list">
-                                           
+
                                             <li>
                                                 <div class="icon">
                                                     <span class="icon-location"></span>
@@ -118,65 +126,71 @@
                                     <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                     <ul class="main-menu__list">
                                         @guest
-                                        <li><a href="{{ route('getHome') }}">Home</a></li>
-                                        <li class="dropdown" style="z-index: 9999;">
-                                            <a href="javascript:void(0)">About Us</a>
-                                            <ul style="z-index: 9999;">
-                                                <li><a href="{{ route('getAboutUs') }}">Introduction</a></li>
-                                                <!-- <li><a href="">Mission &amp; Vission</a></li>
-                                                <li><a href="">District Official Protocal - 2022/23</a></li>
-                                                <li><a href="">Division of Departments - 2022/23</a></li>
-                                                <li><a href="">District Annual Calendar - 2022/23</a></li> -->
-                                            </ul>
-                                        </li>
-                                        <li><a href="{{ route('getClubs') }}">Clubs</a></li>
-                                        <li class="dropdown megamenu">
-                                            <a href="javascript:void(0)">District Officers</a>
-                                            <ul>
-                                                <li>
-                                                    <section class="home-showcase megamenu-left">
-                                                        <div class="container">
-                                                            <div class="home-showcase__inner">
-                                                                <div class="row">
-                                                                    @php $getdepartments = App\Models\Department::where('lion_year', env('lion_year'))->where('zone', NULL)->where('region', NULL)->where('deleted', 'N')->orderby('position', 'asc')->get(); @endphp
-                                                                    @foreach($getdepartments as $department)
-                                                                    <div class="col-lg-3">
-                                                                        <a href="{{ route('getDepartmentTeams', $department->slug) }}">
-                                                                            <div class="home-showcase__item">
-                                                                                <h3 class="home-showcase__title">{{$department->title}}</h3>
-                                                                                <div class="home-showcase__image">
-                                                                                </div>
+                                            <li><a href="{{ route('getHome') }}">Home</a></li>
+                                            <li class="dropdown" style="z-index: 9999;">
+                                                <a href="javascript:void(0)">About Us</a>
+                                                <ul style="z-index: 9999;">
+                                                    <li><a href="{{ route('getAboutUs') }}">Introduction</a></li>
+                                                    <!-- <li><a href="">Mission &amp; Vission</a></li>
+                                                        <li><a href="">District Official Protocal - 2022/23</a></li>
+                                                        <li><a href="">Division of Departments - 2022/23</a></li>
+                                                        <li><a href="">District Annual Calendar - 2022/23</a></li> -->
+                                                </ul>
+                                            </li>
+                                            <li><a href="{{ route('getClubs') }}">Clubs</a></li>
+                                            <li class="dropdown megamenu">
+                                                <a href="javascript:void(0)">District Officers</a>
+                                                <ul>
+                                                    <li>
+                                                        <section class="home-showcase megamenu-left">
+                                                            <div class="container">
+                                                                <div class="home-showcase__inner">
+                                                                    <div class="row">
+                                                                        @php $getdepartments = App\Models\Department::where('lion_year', env('lion_year'))->where('zone', NULL)->where('region', NULL)->where('deleted', 'N')->orderby('position', 'asc')->get(); @endphp
+                                                                        @foreach ($getdepartments as $department)
+                                                                            <div class="col-lg-3">
+                                                                                <a
+                                                                                    href="{{ route('getDepartmentTeams', $department->slug) }}">
+                                                                                    <div class="home-showcase__item">
+                                                                                        <h3 class="home-showcase__title">
+                                                                                            {{ $department->title }}</h3>
+                                                                                        <div class="home-showcase__image">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
                                                                             </div>
-                                                                        </a>
+                                                                        @endforeach
                                                                     </div>
-                                                                    @endforeach
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                    </section>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="{{route('getProjects')}}">Programme/Projects</a></li>
-                                        <li><a href="{{route('getNews')}}">News &amp; Events</a></li>
-                                        <li class="dropdown">
-                                            <a href="javascript:void(0)">Donors</a>
-                                            <ul>
-                                                @php
-                                                    $donormenus = App\Models\Donortype::all();
-                                                @endphp
-                                                @foreach($donormenus as $donormenu)
-                                                <li><a href="{{ route('getDonorDetail', $donormenu->slug) }}">{{ $donormenu->title }}</a></li>
-                                                @endforeach
-                                            </ul>
-                                        </li>
-                                        @else
-                                        <li><a href="{{ route('club.dashboard') }}">Dashboard</a></li>
-                                        <li><a href="{{ route('club.profile') }}">Club Profile</a></li>
-                                        <li><a href="{{ route('club.getManageMember') }}">Club Members</a></li>
-                                        <li><a href="">Reports</a></li>
-                                        <li><a href="">Notices</a></li>
-                                        <li><a href="{{route('club.getRegistrationList')}}">Registration</a></li>
+                                                        </section>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="{{ route('getProjects') }}">Programme/Projects</a></li>
+                                            <li><a href="{{ route('getNews') }}">News &amp; Events</a></li>
+                                            <li class="dropdown">
+                                                <a href="javascript:void(0)">Donors</a>
+                                                <ul>
+                                                    @php
+                                                        $donormenus = App\Models\Donortype::all();
+                                                    @endphp
+                                                    @foreach ($donormenus as $donormenu)
+                                                        <li><a
+                                                                href="{{ route('getDonorDetail', $donormenu->slug) }}">{{ $donormenu->title }}</a>
+                                                        </li>
+                                                    @endforeach
+                                                </ul>
+                                            </li>
+                                            <li><a href="{{ route('getDownload') }}">Download</a></li>
+                                            @else
+                                            <li><a href="{{ route('club.dashboard') }}">Dashboard</a></li>
+                                            <li><a href="{{ route('club.profile') }}">Club Profile</a></li>
+                                            <li><a href="{{ route('club.getManageMember') }}">Club Members</a></li>
+                                            <li><a href="">Reports</a></li>
+                                            <li><a href="">Notices</a></li>
+                                            <li><a href="{{ route('club.getRegistrationList') }}">Registration</a></li>
+                                            <li><a href="{{ route('getDownload') }}">Download</a></li>
                                         @endguest
                                     </ul>
                                 </div>
@@ -184,18 +198,20 @@
                                     <div class="main-menu__search-cat-btn-box">
                                         <div class="main-menu__btn-box">
                                             @guest
-                                            <a href="" class="main-menu__btn" style="color: #fff">Lion Year : {{env('lion_year')}}</a>
+                                                <a href="" class="main-menu__btn" style="color: #fff">Lion Year :
+                                                    {{ env('lion_year') }}</a>
                                             @else
-                                           <a href="" class="main-menu__btn" style="color: #fff;">{{ Auth::user()->name }}</a> &nbsp; &nbsp;
-                                           <form method="POST" action="{{ route('logout') }}">
-                                            @csrf
-                
-                                            <a href="route('logout')"
-                                                    onclick="event.preventDefault();
+                                                <a href="" class="main-menu__btn"
+                                                    style="color: #fff;">{{ Auth::user()->name }}</a> &nbsp; &nbsp;
+                                                <form method="POST" action="{{ route('logout') }}">
+                                                    @csrf
+
+                                                    <a href="route('logout')"
+                                                        onclick="event.preventDefault();
                                                                 this.closest('form').submit();">
-                                                {{ __('Log Out') }}
-                                           </a>
-                                        </form>
+                                                        {{ __('Log Out') }}
+                                                    </a>
+                                                </form>
                                             @endguest
                                         </div>
                                     </div>
@@ -215,7 +231,8 @@
 
         <!--Site Footer Start-->
         <footer class="site-footer">
-            <div class="site-footer-bg" style="background-image: url({{ asset('site/assets/images/backgrounds/site-footer-bg.jpg') }});">
+            <div class="site-footer-bg"
+                style="background-image: url({{ asset('site/assets/images/backgrounds/site-footer-bg.jpg') }});">
             </div>
             <div class="site-footer__top">
                 <div class="container">
@@ -238,7 +255,7 @@
                                     <li><a href="{{ route('getClubs') }}">Our Clubs</a></li>
                                     <li><a href="{{ route('getNews') }}">News &amp; Events</a></li>
                                     <li><a href="{{ route('getProjects') }}">Programme / Projects</a></li>
-                                    
+
                                 </ul>
                             </div>
                         </div>
@@ -247,7 +264,7 @@
                                 <h3 class="footer-widget__title"> &nbsp; &nbsp; </h3>
                                 <ul class="footer-widget__non-profit-list list-unstyled clearfix">
                                     <li><a href="{{ route('getgovernorTeams') }}">Our Team</a></li>
-                                    <li><a href="{{route('getRegionzonedevision')}}">Region/Zone Division</a></li>
+                                    <li><a href="{{ route('getRegionzonedevision') }}">Region/Zone Division</a></li>
                                     <li><a href="">Notices</a></li>
                                     <li><a href="{{ route('getContact') }}">Contact</a></li>
                                 </ul>
@@ -266,7 +283,9 @@
                                             <i class="fa fa-envelope"></i>
                                         </div>
                                         <div class="text">
-                                            <p><a href="mailto:lionsdistrict325Mnepal@gmail.com">lionsdistrict325mnepal@gmail.com</a></p>
+                                            <p><a
+                                                    href="mailto:lionsdistrict325Mnepal@gmail.com">lionsdistrict325mnepal@gmail.com</a>
+                                            </p>
                                         </div>
                                     </li>
                                     <li>
@@ -287,7 +306,8 @@
                         </div>
                         <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
                             <div class="footer-widget__column footer-widget__contact">
-                                <h3 class="footer-widget__title"> &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;</h3>
+                                <h3 class="footer-widget__title"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h3>
                                 <p class="footer-widget__contact-text">Kathmandu
                                 </p>
                                 <p class="footer-widget__contact-text">Basundhara, Kathmandu
@@ -298,7 +318,9 @@
                                             <i class="fa fa-envelope"></i>
                                         </div>
                                         <div class="text">
-                                            <p><a href="mailto:lionsdistrict325Mnepal@gmail.com">lionsdistrict325mnepal@gmail.com</a></p>
+                                            <p><a
+                                                    href="mailto:lionsdistrict325Mnepal@gmail.com">lionsdistrict325mnepal@gmail.com</a>
+                                            </p>
                                         </div>
                                     </li>
                                     <li>
@@ -325,7 +347,8 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="site-footer__bottom-inner">
-                                <p class="site-footer__bottom-text"> &copy; All Copyright @php echo date('Y') @endphp by <a href="#">Lions Club International District 325M, Nepal</a>
+                                <p class="site-footer__bottom-text"> &copy; All Copyright @php echo date('Y') @endphp by <a
+                                        href="#">Lions Club International District 325M, Nepal</a>
                                 </p>
                             </div>
                         </div>
@@ -347,9 +370,8 @@
 
             <div class="logo-box" style="text-align: center;">
                 <a href="{{ route('getHome') }}" aria-label="logo image">
-                    <img src="{{ asset('site/assets/images/logo-23-24.png') }}" width="70"
-                        alt="" /></a>
-                        Lions Clubs International - District 325 M, Nepal
+                    <img src="{{ asset('site/assets/images/logo-23-24.png') }}" width="70" alt="" /></a>
+                Lions Clubs International - District 325 M, Nepal
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
@@ -357,7 +379,7 @@
             <div class="row">
                 <div class="col-md-12" style="text-align:center; margin-top:10px">
                     <div>
-                        <a href="{{route('login')}}" class="btn btn-primary">CLub Login</a>
+                        <a href="{{ route('login') }}" class="btn btn-primary">CLub Login</a>
                     </div>
                 </div>
             </div>
@@ -386,7 +408,7 @@
         <!-- /.mobile-nav__content -->
     </div>
 
- 
+
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="icon-up-arrow"></i></a>
 
 

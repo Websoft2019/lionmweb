@@ -30,6 +30,7 @@ Route::get('/card/{membershipno}', 'App\Http\Controllers\SiteController@getPrint
 Route::post('/Ajax/clubs/Members', 'App\Http\Controllers\SiteController@getAjaxclubMember');
 Route::get('/privacy', 'App\Http\Controllers\SiteController@getPrivacy')->name('getPrivacy');
 Route::get('/terms', 'App\Http\Controllers\SiteController@getTerms')->name('getTerms');
+Route::get('/download', 'App\Http\Controllers\SiteController@getDownload')->name('getDownload');
 
 /* Club Route (Default) */
 Route::get('/club/dashboard', 'App\Http\Controllers\HomeController@getDashboard')->middleware(['auth'])->name('club.dashboard');
