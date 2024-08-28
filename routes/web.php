@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SliderController;
 
 /*
 |--------------------------------------------------------------------------
@@ -39,6 +40,5 @@ require __DIR__.'/auth.php';
 /* Admin Route */
 Route::get('/admin/dashboard', 'App\Http\Controllers\AdminController@getDashboard')->middleware(['auth:admin'])->name('admin.dashboard');
 require __DIR__.'/adminauth.php';
-
 
 

@@ -12,32 +12,33 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DownloadController;
 use App\Http\Controllers\DistrictCalenderController;
 use App\Http\Controllers\DocumentController;
+use App\Http\Controllers\SliderController;
 
-Route::group(['middleware' => ['guest:admin'], 'prefix' => 'admin', 'as' => 'admin.'], function(){
+Route::group(['middleware' => ['guest:admin'], 'prefix' => 'admin', 'as' => 'admin.'], function () {
 
     // Route::get('register', [RegisteredUserController::class, 'create'])->name('register');
 
     // Route::post('register', [RegisteredUserController::class, 'store']);
 
     Route::get('login', [AuthenticatedSessionController::class, 'create'])
-                ->name('login');
+        ->name('login');
 
     Route::post('login', [AuthenticatedSessionController::class, 'store']);
 
     Route::get('forgot-password', [PasswordResetLinkController::class, 'create'])
-                ->name('password.request');
+        ->name('password.request');
 
     Route::post('forgot-password', [PasswordResetLinkController::class, 'store'])
-                ->name('password.email');
+        ->name('password.email');
 
     Route::get('reset-password/{token}', [NewPasswordController::class, 'create'])
-                ->name('password.reset');
+        ->name('password.reset');
 
     Route::post('reset-password', [NewPasswordController::class, 'store'])
-                ->name('password.update');
+        ->name('password.update');
 });
 
-Route::group(['middleware' => ['auth:admin'], 'prefix' => 'admin', 'as' => 'admin.'], function(){
+Route::group(['middleware' => ['auth:admin'], 'prefix' => 'admin', 'as' => 'admin.'], function () {
     Route::get('/profile', 'App\Http\Controllers\AdminController@getProfile')->name('getProfile');
     Route::post('/profile1', 'App\Http\Controllers\AdminController@postAdminPasswordChange')->name('postAdminPasswordChange');
     Route::get('/club/manage', 'App\Http\Controllers\AdminController@getManageClub')->name('getManageClub');
@@ -50,7 +51,7 @@ Route::group(['middleware' => ['auth:admin'], 'prefix' => 'admin', 'as' => 'admi
     Route::post('/club/add', 'App\Http\Controllers\AdminController@postAddNewClub')->name('postAddNewClub');
     Route::get('/autocomplete/zone/list/', 'App\Http\Controllers\AdminController@getAutoCompleteZoneList')->name('getAutoCompleteZoneList');
     Route::get('/autocomplete/club/list/', 'App\Http\Controllers\AdminController@getAutoCompleteClubList')->name('getAutoCompleteClubList');
-    
+
 
     Route::get('/donor/manage', 'App\Http\Controllers\AdminController@getManageDonor')->name('getManageDonor');
     Route::post('/ajax/search/membership', 'App\Http\Controllers\AdminController@getAjaxMembership')->name('abc');
@@ -113,7 +114,7 @@ Route::group(['middleware' => ['auth:admin'], 'prefix' => 'admin', 'as' => 'admi
 
     Route::get('pdf-document/manage', 'App\Http\Controllers\AdminController@getManagePDFDocuments')->name('getManagePDFDocuments');
     Route::post('pdf-document/manage/{type}', 'App\Http\Controllers\AdminController@postPdfDocument')->name('postPdfDocument');
-    
+
 
 
 
@@ -143,28 +144,28 @@ Route::group(['middleware' => ['auth:admin'], 'prefix' => 'admin', 'as' => 'admi
     Route::get('/manage/notice/delete/{notice}', 'App\Http\Controllers\AdminCMSController@getDeleteNotice')->name('getDeleteNotice');
 
     Route::get('verify-email', [EmailVerificationPromptController::class, '__invoke'])
-                ->name('verification.notice');
+        ->name('verification.notice');
 
     Route::get('verify-email/{id}/{hash}', [VerifyEmailController::class, '__invoke'])
-                ->middleware(['signed', 'throttle:6,1'])
-                ->name('verification.verify');
+        ->middleware(['signed', 'throttle:6,1'])
+        ->name('verification.verify');
 
     Route::post('email/verification-notification', [EmailVerificationNotificationController::class, 'store'])
-                ->middleware('throttle:6,1')
-                ->name('verification.send');
+        ->middleware('throttle:6,1')
+        ->name('verification.send');
 
     Route::get('confirm-password', [ConfirmablePasswordController::class, 'show'])
-                ->name('password.confirm');
+        ->name('password.confirm');
 
     Route::post('confirm-password', [ConfirmablePasswordController::class, 'store']);
 
     Route::post('logout', [AuthenticatedSessionController::class, 'destroy'])
-                ->name('logout');
+        ->name('logout');
 
-                
+
 
     // Download
-    Route::prefix('download')->name('download.')->group(function(){
+    Route::prefix('download')->name('download.')->group(function () {
         Route::get("donwload", [DownloadController::class, 'index'])->name('index');
         Route::get("donwload/create", [DownloadController::class, 'create'])->name('create');
         Route::post("donwload/store", [DownloadController::class, 'store'])->name('store');
@@ -172,7 +173,7 @@ Route::group(['middleware' => ['auth:admin'], 'prefix' => 'admin', 'as' => 'admi
     });
 
     // District Calender
-    Route::prefix('district-calender')->name('district_calender.')->group(function(){
+    Route::prefix('district-calender')->name('district_calender.')->group(function () {
         Route::get("index/{date?}", [DistrictCalenderController::class, 'index'])->name('index');
         Route::get("create", [DistrictCalenderController::class, 'create'])->name('create');
         Route::post("store", [DistrictCalenderController::class, 'store'])->name('store');
@@ -182,10 +183,13 @@ Route::group(['middleware' => ['auth:admin'], 'prefix' => 'admin', 'as' => 'admi
     });
 
     // Document
-    Route::prefix('document')->name('document.')->group(function() {
+    Route::prefix('document')->name('document.')->group(function () {
         Route::get("index", [DocumentController::class, 'index'])->name('index');
         Route::get("create", [DocumentController::class, 'create'])->name('create');
         Route::post("store", [DocumentController::class, 'store'])->name('store');
         Route::get("delete/{id}", [DocumentController::class, 'destroy'])->name('delete');
     });
+
+
+    Route::resource('/slider', SliderController::class);
 });

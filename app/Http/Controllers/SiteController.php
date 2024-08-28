@@ -18,6 +18,7 @@ use App\Models\Officer;
 use PDF;
 use App\Models\DCalendar;
 use App\Models\Download;
+use App\Models\Slider;
 
 class SiteController extends Controller
 {
@@ -49,6 +50,7 @@ class SiteController extends Controller
             'notices' => Notice::orderby('id', 'desc')->get(),
             'donations' => Donortype::all(),
             'dates' => $this->getCalender(),
+            'sliders'   =>  Slider::latest()->limit(3)->get(),
         ];
         return view('site.home', $data);
 

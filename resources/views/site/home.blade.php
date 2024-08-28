@@ -182,30 +182,17 @@
 
 <div class="swiper-container">
     <div class="swiper-wrapper">
+        @foreach ($sliders as $item)
         <div class="swiper-slide">
-            <img src="{{ asset('site/assets/images/slider/slider1.jpg') }}" alt="Slide 1">
-            {{-- <div class="slide-content">
-                <h2>Slide 1 Title</h2>
-                <p>This is a description for slide 1.</p>
-                <button class="btn">Learn More</button>
-            </div> --}}
+            <img src="{{ asset('uploads/slider/'. $item->photo) }}" alt="Slide 1">
         </div>
-        <div class="swiper-slide">
+        {{-- <div class="swiper-slide">
             <img src="{{ asset('site/assets/images/slider/slider1.jpg') }}" alt="Slide 2">
-            {{-- <div class="slide-content">
-                <h2>Slide 2 Title</h2>
-                <p>This is a description for slide 2.</p>
-                <button class="btn">Learn More</button>
-            </div> --}}
         </div>
         <div class="swiper-slide">
             <img src="{{ asset('site/assets/images/slider/slider1.jpg') }}" alt="Slide 3">
-            {{-- <div class="slide-content">
-                <h2>Slide 3 Title</h2>
-                <p>This is a description for slide 3.</p>
-                <button class="btn">Learn More</button>
-            </div> --}}
-        </div>
+        </div> --}}
+        @endforeach
     </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
