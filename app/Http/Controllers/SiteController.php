@@ -19,6 +19,8 @@ use PDF;
 use App\Models\DCalendar;
 use App\Models\Download;
 use App\Models\Slider;
+use App\Models\Album;
+use App\Models\Image;
 
 class SiteController extends Controller
 {
@@ -228,5 +230,26 @@ class SiteController extends Controller
         $downloads = Download::latest()->paginate(10);
 
         return view('site.download', compact('downloads'));
+    }
+    
+    public function getGallery()
+    {
+        return view('site.gallery',[
+            "albums" => Album::where('status', 'active')->latest()->paginate(10)
+        ]);
+    }
+    
+    public function getGalleryFromAlbum($slug)
+    {
+        $album = Album::where('slug', $slug)->first();
+        if (!$album) {
+            return abort(404);
+        }
+
+        $image = Image::where('album_id', $album->id)->latest()->get();
+
+        return view('site.galleryfromalbum', [
+            'images' => $image
+        ]);
     }
 }

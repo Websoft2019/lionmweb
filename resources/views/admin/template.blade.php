@@ -75,6 +75,31 @@
             <span class="nav-link-text ms-1">Donation</span>
           </a>
         </li>
+        
+        <li class="nav-item">
+          <a class="nav-link text-white"
+              href="#orderMenu" data-bs-toggle="collapse" role="button" aria-expanded="false"
+              aria-controls="orderMenu">
+              <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                  <i class="material-icons opacity-10">table_view</i>
+              </div>
+              <span class="nav-link-text ms-1">Gallery</span>
+          </a>
+          <div class="collapse" id="orderMenu">
+              <ul class="nav flex-column">
+                  <li class="nav-item">
+                      <a class="nav-link text-white" href="{{ route('admin.album.index') }}">
+                          <span class="ms-4">Ablum</span>
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-white" href="{{ route('admin.image.index') }}">
+                          <span class="ms-4">Image</span>
+                      </a>
+                  </li>
+              </ul>
+          </div>
+      </li>
         <li class="nav-item">
           <a class="nav-link text-white" href="{{ route('admin.getManageDistrictDepartment') }}">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
@@ -341,6 +366,63 @@
   <script src="{{ asset('admin/assets/js/material-dashboard.min.js?v=3.0.4') }}"></script>
   <script src="{{ asset('admin/assets/js/jquery.js') }}"></script>
   @yield('js')
+  
+    <!--- Slug ---->
+    <script>
+        function generateSlug() {
+            const nameInput = document.getElementById('name').value.toLowerCase();
+            const slugInput = nameInput.replace(/[^a-z0-9]/g, '-');
+            document.getElementById('slug').value = slugInput;
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Target the input field with the id 'slug'
+            var slugInput = document.getElementById('slug');
+
+            // Add an input event listener to the input field
+            slugInput.addEventListener('input', function() {
+                // Get the current value of the input field
+                var currentValue = slugInput.value;
+
+                // Replace consecutive spaces with a single dash and update the input field value
+                var slugValue = currentValue.replace(/\s+/g, '-');
+
+                // Remove leading and trailing dashes
+                slugValue = slugValue.replace(/^-+|-+$/g, '');
+
+                // Update the input field value
+                slugInput.value = slugValue;
+            });
+
+            // Add a keypress event listener to the input field
+            slugInput.addEventListener('keypress', function(event) {
+                // Check if the pressed key is the space key
+                if (event.key === ' ') {
+                    // Prevent the default behavior of the space key
+                    event.preventDefault();
+
+                    // Append a dash to the current input field value only if the last character is not a dash
+                    if (slugInput.value.slice(-1) !== '-') {
+                        slugInput.value += '-';
+                    }
+                }
+            });
+        });
+
+        // for success popup
+        document.addEventListener('DOMContentLoaded', function() {
+            var popup = document.getElementById('successPopup');
+            popup.style.display = 'block';
+            popup.style.animation = 'slideIn 0.5s ease-out forwards';
+
+            setTimeout(function() {
+                popup.style.animation = 'slideOut 0.5s ease-out forwards';
+                setTimeout(function() {
+                    popup.style.display = 'none';
+                }, 500); // Match the duration of the slideOut animation
+            }, 3000); // Duration before popup starts to slide out
+        });
+    </script>
 </body>
 
 </html>

@@ -183,6 +183,8 @@
                                                 </ul>
                                             </li>
                                             <li><a href="{{ route('getDownload') }}">Download</a></li>
+                                            <li><a href="{{ route('getGallery') }}">Gallery</a></li>
+
                                             @else
                                             <li><a href="{{ route('club.dashboard') }}">Dashboard</a></li>
                                             <li><a href="{{ route('club.profile') }}">Club Profile</a></li>
@@ -191,6 +193,8 @@
                                             <li><a href="">Notices</a></li>
                                             <li><a href="{{ route('club.getRegistrationList') }}">Registration</a></li>
                                             <li><a href="{{ route('getDownload') }}">Download</a></li>
+                                            <li><a href="{{ route('getGallery') }}">Gallery</a></li>
+
                                         @endguest
                                     </ul>
                                 </div>

@@ -13,6 +13,8 @@ use App\Http\Controllers\DownloadController;
 use App\Http\Controllers\DistrictCalenderController;
 use App\Http\Controllers\DocumentController;
 use App\Http\Controllers\SliderController;
+use App\Http\Controllers\AlbumController;
+use App\Http\Controllers\ImageController;
 
 Route::group(['middleware' => ['guest:admin'], 'prefix' => 'admin', 'as' => 'admin.'], function () {
 
@@ -188,6 +190,27 @@ Route::group(['middleware' => ['auth:admin'], 'prefix' => 'admin', 'as' => 'admi
         Route::get("create", [DocumentController::class, 'create'])->name('create');
         Route::post("store", [DocumentController::class, 'store'])->name('store');
         Route::get("delete/{id}", [DocumentController::class, 'destroy'])->name('delete');
+    });
+
+    
+    // Albums
+    Route::prefix("album")->name("album.")->group(function() {
+        Route::get("/", [AlbumController::class, 'index'])->name("index");
+        Route::get("create", [AlbumController::class, 'create'])->name("create");
+        Route::post("store", [AlbumController::class, 'store'])->name("store");
+        Route::get("edit/{id}", [AlbumController::class, 'edit'])->name("edit");
+        Route::put("update/{id}", [AlbumController::class, 'update'])->name("update");
+        Route::delete("delete/{id}", [AlbumController::class, 'destroy'])->name("delete");
+    });
+
+    // Gallery
+    Route::prefix('image')->name("image.")->group(function() {
+        Route::get("home/{id?}", [ImageController::class, 'index'])->name("index");
+        Route::get("create", [ImageController::class, 'create'])->name("create");
+        Route::post("store", [ImageController::class, 'store'])->name("store");
+        Route::get("edit/{id}", [ImageController::class, 'edit'])->name("edit");
+        Route::put("update/{id}", [ImageController::class, 'update'])->name("update");
+        Route::delete("delete/{id}", [ImageController::class, 'destroy'])->name("delete");
     });
 
 

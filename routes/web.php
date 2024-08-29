@@ -32,6 +32,8 @@ Route::post('/Ajax/clubs/Members', 'App\Http\Controllers\SiteController@getAjaxc
 Route::get('/privacy', 'App\Http\Controllers\SiteController@getPrivacy')->name('getPrivacy');
 Route::get('/terms', 'App\Http\Controllers\SiteController@getTerms')->name('getTerms');
 Route::get('/download', 'App\Http\Controllers\SiteController@getDownload')->name('getDownload');
+Route::get('/gallery', 'App\Http\Controllers\SiteController@getGallery')->name('getGallery');
+Route::get('/gallery/{album}', [App\Http\Controllers\SiteController::class, 'getGalleryFromAlbum'])->name('getGalleryFromAlbum');
 
 /* Club Route (Default) */
 Route::get('/club/dashboard', 'App\Http\Controllers\HomeController@getDashboard')->middleware(['auth'])->name('club.dashboard');
